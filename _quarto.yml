@@ -2,9 +2,9 @@ project:
   type: website
 
 website:
-  title: "lazappi"
-  site-url: https://lazappi.id.au
-  description: "Luke Zappia's personal website"
+  title: "Jiru"
+  site-url: https://JiruHan.id.au
+  description: "Jiru Han's personal website"
   favicon: icon.png
   navbar:
     pinned: true
@@ -15,26 +15,20 @@ website:
       - publications/index.qmd
     right:
       - icon: github
-        href: https://github.com/lazappi
+        href: https://github.com/JiruHan
       - icon: rss
         href: posts/index.xml
   page-footer:
     left:
-      - text: "© 2016-2025, Luke Zappia"
+      - text: "© 2017-2026, Jiru Han"
     right:
       - text: "License"
         href: license.qmd
-  twitter-card:
-    creator: "@_lazappi_"
-    site: "@_lazappi_"
   open-graph:
     locale: en_AU
-    site-name: lazappi
+    site-name: Jiru
   cookie-consent:
     palette: dark
-  google-analytics:
-    tracking-id: "G-20JH368VMR"
-    anonymize-ip: true
 header-includes: |
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

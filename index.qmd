@@ -1,43 +1,35 @@
 ---
-title: "Luke Zappia"
+title: "Jiru Han"
 subtitle: |
-  Bioinformatician, data scientist, workflow engineer, package developer
+  Bioinformatician, data scientist, statistical geneticist, package developer
 
-  (he/him)
+  (she/her)
 image: profile.png
 about:
   template: trestles
   image-shape: round
   links:
-    - icon: mastodon
-      text: Mastodon
-      href: https://mastodon.au/@lazappi
-    - text: "{{< iconify fa6-brands bluesky >}} Bluesky"
-      href: https://bsky.app/profile/lazappi.bsky.social
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/lazappi/
+      href: www.linkedin.com/in/jiru-han-b2326a198
     - text: "{{< ai google-scholar >}} Scholar"
-      href: https://scholar.google.com/citations?user=F_LxcIoAAAAJ&hl=en
+      href: https://scholar.google.com/citations?user=Cz5Wo-gAAAAJ&hl=en
     - text: "{{< ai orcid >}} ORCiD"
-      href: https://orcid.org/0000-0001-7744-8565
-    - text: "{{< ai impactstory >}} Impactstory"
-      href: https://profiles.impactstory.org/u/0000-0001-7744-8565
+      href: https://orcid.org/0000-0002-4884-1082
     - icon: github
       text: Github
-      href: https://github.com/lazappi
+      href: https://github.com/JiruHan
 ---
 
 :::{#hero-heading}
 
-# Hi, I'm Luke 👋🏻
+# Hi, I'm Jiru 👋🏻
 
-I am a data scientist, software engineer and bioinformatician with an interest in interoperability, reproducible pipelines and data visualisation.
+I am a computational geneticist and data scientist with interests in statistical genetics, computational biology, multi-omics, reproducible workflows, data visualisation, and biomedical AI.
 
-I currently work as a data science engineer at [Data Intuitive][DI] where I build robust and scalable data processing pipelines and develop software for a range of clients.
+I am currently based in Hamburg, Germany, and exploring new research and industry opportunities in computational biology, bioinformatics, and data science, with a research background in statistical genetics, genomics, multi-omics integration, and biomedical AI.
 
-I was previously a postdoctoral researcher in the [Theis Lab][Theis] at the [Helmholtz Munich][Helmholtz] [Institute of Computational Biology][ICB] and the [Technische Universität München][TUM] and completed my PhD in the [Oshlack Lab][Oshlack] in Melbourne, Australia.
-My academic research focused on the analysis of single-cell RNA sequencing data including the development and benchmarking of computational methods.
+I was previously a Senior Research Fellow in the [Bahlo Lab][Bahlo] within the [Molecular Sciences Division][GGR] at the [Walter and Eliza Hall Institute of Medical Research][WEHI]. I completed my PhD in the [Bahlo Lab][Bahlo] at the University of Melbourne, Australia.
 
 Check out my [posts](/posts), [projects](/projects) and [publications](/publications) to find out more about me and my work!
 
@@ -47,9 +39,6 @@ Check out my [posts](/posts), [projects](/projects) and [publications](/publicat
   <img src="https://s01.flagcounter.com/count2/6RVN/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" style="  display: block;margin-left: auto;margin-right: auto;width:100%">
 </a>
 
-[Theis]: https://www.helmholtz-munich.de/en/icb/research-groups/theis-lab "Theis Lab"
-[Helmholtz]: https://www.helmholtz-munich.de/en/ "Helmholtz Munich"
-[ICB]: https://www.helmholtz-munich.de/en/icb "Institute of Computational Biology"
-[TUM]: https://www.tum.de/en/ "Technische Universität München"
-[Oshlack]: http://oshlacklab.com/ "Oshlack Lab"
-[DI]: https://data-intuitive.com/ "Data Intuitive"
+[Bahlo]: https://www.wehi.edu.au/laboratory/bahlo-lab "Bahlo Lab"
+[WEHI]: https://www.wehi.edu.au "Walter and Eliza Hall Institute of Medical Research"
+[GGR]: https://www.wehi.edu.au/research/divisions/genetics-gene-regulation/ "Molecular Sciences Division"
