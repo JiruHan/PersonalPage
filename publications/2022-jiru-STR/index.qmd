@@ -13,6 +13,7 @@ categories: ["Plasmodium", "short tandem repeats", "STR", "population genetics",
 date: 2022-01-01
 links:
   doi: https://doi.org/10.1371/journal.pgen.1009604
+google-scholar: true
 citation:
   type: article-journal
   doi: 10.1371/journal.pgen.1009604
@@ -21,5 +22,4 @@ citation:
   volume: "18"
   issue: "1"
   url: https://doi.org/10.1371/journal.pgen.1009604
-  google-scholar: true
 ---
