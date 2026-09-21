@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Jiru"
-  site-url: https://JiruHan.id.au
+  site-url: https://JiruHan.com
   description: "Jiru Han's personal website"
   favicon: icon.png
   navbar:

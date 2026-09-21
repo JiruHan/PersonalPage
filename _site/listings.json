@@ -48,36 +48,7 @@
   {
     "listing": "/publications/index.html",
     "items": [
-      "/publications/2025-hrovatin-batch-effects/index.html",
-      "/publications/2025-kachkin-brain-organoids/index.html",
-      "/publications/2025-deconinck-anndataR/index.html",
-      "/publications/2025-luecken-OpenProblems/index.html",
-      "/publications/2025-cannoodt-funkyheatmap/index.html",
-      "/publications/2025-zappia-feature-selection/index.html",
-      "/publications/2024-huemos-ehrapy/index.html",
-      "/publications/2023-ji-distance-metrics/index.html",
-      "/publications/2023-deDonno-scPoli/index.html",
-      "/publications/2023-hrovatin-MIA/index.html",
-      "/publications/2023-sikkema-HLCA/index.html",
-      "/publications/2023-heumos-best-practices/index.html",
-      "/publications/2021-luecken-scIB/index.html",
-      "/publications/2021-azodi-splatPop/index.html",
-      "/publications/2021-zappia-1000-tools/index.html",
-      "/publications/2021-fischer-sfaira/index.html",
-      "/publications/2020-leeming-HiTIME/index.html",
-      "/publications/2020-amarasinghe-long-read-tools/index.html",
-      "/publications/2019-zappia-thesis/index.html",
-      "/publications/2019-combes-mouse-kidney/index.html",
-      "/publications/2019-kumar-micro-organoids/index.html",
-      "/publications/2019-ma-influenza/index.html",
-      "/publications/2019-lawlor-nephron-commitment/index.html",
-      "/publications/2019-combes-kidney-organoids/index.html",
-      "/publications/2018-phipson-variability/index.html",
-      "/publications/2018-zappia-clustree/index.html",
-      "/publications/2018-zappia-scRNAtools/index.html",
-      "/publications/2017-zappia-splatter/index.html",
-      "/publications/2017-phipson-gene-length/index.html",
-      "/publications/2016-grillet-colorectal-CTCs/index.html"
+      "/publications/2025-zappia-feature-selection/index.html"
     ]
   },
   {
