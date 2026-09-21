@@ -31,7 +31,7 @@ I am currently based in Hamburg, Germany, and exploring new research and industr
 
 I was previously a Senior Research Fellow in the [Bahlo Lab][Bahlo] within the [Molecular Sciences Division][GGR] at the [Walter and Eliza Hall Institute of Medical Research][WEHI]. I completed my PhD in the [Bahlo Lab][Bahlo] at the University of Melbourne, Australia.
 
-Check out my [posts](/posts), [projects](/projects) and [publications](/publications) to find out more about me and my work!
+Check out my [projects](/projects) and [publications](/publications) to find out more about me and my work!
 
 :::
 
