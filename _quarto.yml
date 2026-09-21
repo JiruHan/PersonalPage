@@ -9,7 +9,6 @@ website:
   navbar:
     pinned: true
     left:
-      - posts/index.qmd
       - projects/index.qmd
       - talks/index.qmd
       - publications/index.qmd
@@ -20,7 +19,7 @@ website:
         href: posts/index.xml
   page-footer:
     left:
-      - text: "© 2017-2026, Jiru Han"
+      - text: "© 2022-2026, Jiru Han"
     right:
       - text: "License"
         href: license.qmd
