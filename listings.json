@@ -20,6 +20,36 @@
     ]
   },
   {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/Splatter/index.html",
+      "/projects/anndataR/index.html",
+      "/projects/zellkonverter/index.html",
+      "/projects/laminr/index.html",
+      "/projects/clustree/index.html",
+      "/projects/clamour/index.html",
+      "/projects/doilinker/index.html",
+      "/projects/prettytc/index.html",
+      "/projects/tidydirectory/index.html",
+      "/projects/oecd-housing/index.html",
+      "/projects/phd-commits/index.html",
+      "/projects/twitter-stats/index.html",
+      "/projects/nba-positions/index.html",
+      "/projects/scRNA-tools/index.html",
+      "/projects/sfaira-portal/index.html",
+      "/projects/open-problems-single-cell/index.html",
+      "/projects/single-cell-best-practices/index.html",
+      "/projects/scanpy-in-R/index.html",
+      "/projects/r-pkg-dev/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2025-zappia-feature-selection/index.html"
+    ]
+  },
+  {
     "listing": "/posts/index.html",
     "items": [
       "/posts/2026-05-12-bioconductor-3-23-wrap-up/index.html",
@@ -43,36 +73,6 @@
       "/posts/2016-03-30-extracting-alignment-statistics-using-python/index.html",
       "/posts/2015-09-13-my-markdown-thesis/index.html",
       "/posts/2014-07-20-open-science-workshops/index.html"
-    ]
-  },
-  {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/2025-zappia-feature-selection/index.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/Splatter/index.html",
-      "/projects/anndataR/index.html",
-      "/projects/zellkonverter/index.html",
-      "/projects/laminr/index.html",
-      "/projects/clustree/index.html",
-      "/projects/clamour/index.html",
-      "/projects/doilinker/index.html",
-      "/projects/prettytc/index.html",
-      "/projects/tidydirectory/index.html",
-      "/projects/oecd-housing/index.html",
-      "/projects/phd-commits/index.html",
-      "/projects/twitter-stats/index.html",
-      "/projects/nba-positions/index.html",
-      "/projects/scRNA-tools/index.html",
-      "/projects/sfaira-portal/index.html",
-      "/projects/open-problems-single-cell/index.html",
-      "/projects/single-cell-best-practices/index.html",
-      "/projects/scanpy-in-R/index.html",
-      "/projects/r-pkg-dev/index.html"
     ]
   }
 ]
