@@ -1,0 +1,26 @@
+---
+title: Population-level genome-wide STR discovery and validation for population structure and genetic diversity assessment of Plasmodium species
+author:
+  - name: Jiru Han
+    me: true
+  - Jennifer E Munro
+  - Andrew Kocoski
+  - Andrew E Barry
+  - Melanie Bahlo
+abstract: |
+  Short tandem repeats (STRs) are highly polymorphic genetic markers that can provide valuable information about population structure and genetic diversity. However, genome-wide STR discovery and validation at the population level have been limited in Plasmodium species. Here, we develop a population-level genome-wide STR discovery and validation framework for Plasmodium and assess the utility of STR variation for population structure and genetic diversity analyses.
+categories: ["Plasmodium", "short tandem repeats", "STR", "population genetics", "genetic diversity"]
+date: 2022-01-01
+links:
+  doi: https://doi.org/10.1371/journal.pgen.1009604
+citation:
+  type: article-journal
+  doi: 10.1371/journal.pgen.1009604
+  issn: "1553-7358"
+  container-title: PLOS Genetics
+  volume: "18"
+  issue: "1"
+  article-number: "e1009604"
+  url: https://doi.org/10.1371/journal.pgen.1009604
+  google-scholar: true
+---
