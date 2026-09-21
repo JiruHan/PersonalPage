@@ -10,7 +10,7 @@
 <atom:link href="https://JiruHan.com/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Jiru Han&#39;s personal website</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Tue, 12 May 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 May 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Bioconductor 3.23 wrap-up</title>
   <link>https://JiruHan.com/posts/2026-05-12-bioconductor-3-23-wrap-up/</link>
@@ -110,7 +110,7 @@
   <category>bioconductor</category>
   <category>R</category>
   <guid>https://JiruHan.com/posts/2026-05-12-bioconductor-3-23-wrap-up/</guid>
-  <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 11 May 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Benchmarking feature selection for integration</title>
@@ -285,7 +285,7 @@ integration. (2025). at &lt;<a href="https://JiruHan.com/posts/2025-03-15-featur
   <category>integration</category>
   <category>publication</category>
   <guid>https://JiruHan.com/posts/2025-03-15-feature-selection-benchmark/</guid>
-  <pubDate>Sat, 15 Mar 2025 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 14 Mar 2025 23:00:00 GMT</pubDate>
   <media:content url="https://JiruHan.com/posts/2025-03-15-feature-selection-benchmark/thumbnail.png" medium="image" type="image/png" height="102" width="144"/>
 </item>
 <item>
@@ -369,7 +369,7 @@ integration. (2025). at &lt;<a href="https://JiruHan.com/posts/2025-03-15-featur
   <category>conference</category>
   <category>sketchnotes</category>
   <guid>https://JiruHan.com/posts/2024-09-15-scverse-conference/</guid>
-  <pubDate>Sun, 15 Sep 2024 00:00:00 GMT</pubDate>
+  <pubDate>Sat, 14 Sep 2024 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>scRNA-tools low-maintenance mode</title>
@@ -409,7 +409,7 @@ integration. (2025). at &lt;<a href="https://JiruHan.com/posts/2025-03-15-featur
   <category>scRNA-tools</category>
   <category>database</category>
   <guid>https://JiruHan.com/posts/2024-03-04-scRNAtools-low-maintenance/</guid>
-  <pubDate>Mon, 04 Mar 2024 00:00:00 GMT</pubDate>
+  <pubDate>Sun, 03 Mar 2024 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Bioconductor 3.12 wrap-up</title>
@@ -486,7 +486,7 @@ integration. (2025). at &lt;<a href="https://JiruHan.com/posts/2025-03-15-featur
   <category>bioconductor</category>
   <category>R</category>
   <guid>https://JiruHan.com/posts/2020-10-30-bioconductor-3-12-wrap-up/</guid>
-  <pubDate>Fri, 30 Oct 2020 00:00:00 GMT</pubDate>
+  <pubDate>Thu, 29 Oct 2020 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>triple j’s Requestival</title>
@@ -571,7 +571,7 @@ integration. (2025). at &lt;<a href="https://JiruHan.com/posts/2025-03-15-featur
   <category>analysis</category>
   <category>music</category>
   <guid>https://JiruHan.com/posts/2020-07-11-requestival/</guid>
-  <pubDate>Sat, 11 Jul 2020 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 10 Jul 2020 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Back to the SCE-verse!</title>
@@ -1495,7 +1495,7 @@ font-style: inherit;">theme_graph</span>()</span></code></pre></div></div>
   <category>SingleCellExperiment</category>
   <category>analysis</category>
   <guid>https://JiruHan.com/posts/2020-05-12-back-to-the-sce-verse/</guid>
-  <pubDate>Tue, 12 May 2020 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 11 May 2020 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Bioconductor 3.11 wrap-up</title>
@@ -1565,7 +1565,7 @@ font-style: inherit;">theme_graph</span>()</span></code></pre></div></div>
   <category>bioconductor</category>
   <category>R</category>
   <guid>https://JiruHan.com/posts/2020-04-29-bioconductor-3-11-wrap-up/</guid>
-  <pubDate>Wed, 29 Apr 2020 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 28 Apr 2020 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Caching blogdown posts</title>
@@ -3093,7 +3093,7 @@ font-style: inherit;">element_blank</span>())</span></code></pre></div></div>
   <category>SingleCellExperiment</category>
   <category>analysis</category>
   <guid>https://JiruHan.com/posts/2018-05-20-exploring-the-sce-verse/</guid>
-  <pubDate>Sat, 09 Jun 2018 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 08 Jun 2018 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Bioconductor 3.7 wrap-up</title>
@@ -3199,7 +3199,7 @@ font-style: inherit;">element_blank</span>())</span></code></pre></div></div>
   <category>R</category>
   <category>scrna-seq</category>
   <guid>https://JiruHan.com/posts/2018-05-04-bioconductor-3-7-wrap-up/</guid>
-  <pubDate>Fri, 04 May 2018 00:00:00 GMT</pubDate>
+  <pubDate>Thu, 03 May 2018 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>My AFL-Elo model</title>
@@ -4159,7 +4159,7 @@ Carlton
   <category>elo</category>
   <category>sport</category>
   <guid>https://JiruHan.com/posts/2018-04-21-my-afl-elo-model/</guid>
-  <pubDate>Sat, 21 Apr 2018 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 20 Apr 2018 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome to Blogdown!</title>
@@ -4182,7 +4182,7 @@ Carlton
  ]]></description>
   <category>blogdown</category>
   <guid>https://JiruHan.com/posts/2018-03-24-welcome-to-blogdown/</guid>
-  <pubDate>Sat, 24 Mar 2018 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 23 Mar 2018 23:00:00 GMT</pubDate>
   <media:content url="https://JiruHan.com/posts/2018-03-24-welcome-to-blogdown/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -4834,7 +4834,7 @@ Best URL of the day goes to <span class="citation" data-cites="Isa_Kiko">@Isa_Ki
   <category>visualisation</category>
   <category>twitter</category>
   <guid>https://JiruHan.com/posts/2017-08-18-joining-the-dots-twitter-analysis/</guid>
-  <pubDate>Fri, 18 Aug 2017 00:00:00 GMT</pubDate>
+  <pubDate>Thu, 17 Aug 2017 22:00:00 GMT</pubDate>
   <media:content url="https://JiruHan.com/posts/2017-08-18-joining-the-dots-twitter-analysis/featured.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
@@ -6497,7 +6497,7 @@ font-style: italic;">##  zlibbioc         1.22.0   2017-04-25 Bioconductor</span
   <category>scrna-seq</category>
   <category>clustering tree</category>
   <guid>https://JiruHan.com/posts/2017-07-19-building-a-clustering-tree/</guid>
-  <pubDate>Wed, 19 Jul 2017 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 18 Jul 2017 22:00:00 GMT</pubDate>
   <media:content url="https://JiruHan.com/posts/2017-07-19-building-a-clustering-tree/featured.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 <item>
@@ -6534,7 +6534,7 @@ font-style: italic;">##  zlibbioc         1.22.0   2017-04-25 Bioconductor</span
   <category>conference</category>
   <category>thoughts</category>
   <guid>https://JiruHan.com/posts/2016-08-18-pyconau-2016/</guid>
-  <pubDate>Thu, 18 Aug 2016 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 17 Aug 2016 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Gantt charts in R</title>
@@ -6901,7 +6901,7 @@ font-style: inherit;">buildGantt</span>(tasks))</span>
   <category>gantt chart</category>
   <category>excel</category>
   <guid>https://JiruHan.com/posts/2016-06-13-gantt-charts-in-r/</guid>
-  <pubDate>Mon, 13 Jun 2016 00:00:00 GMT</pubDate>
+  <pubDate>Sun, 12 Jun 2016 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Bioconductor 3.3 packages</title>
@@ -6941,7 +6941,7 @@ font-style: inherit;">buildGantt</span>(tasks))</span>
   <category>R</category>
   <category>bioconductor</category>
   <guid>https://JiruHan.com/posts/2016-05-03-bioconductor-3-3-packages/</guid>
-  <pubDate>Tue, 03 May 2016 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 02 May 2016 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Extracting alignment statistics using Python</title>
@@ -6973,7 +6973,7 @@ font-style: inherit;">buildGantt</span>(tasks))</span>
   <category>alignment</category>
   <category>statistics</category>
   <guid>https://JiruHan.com/posts/2016-03-30-extracting-alignment-statistics-using-python/</guid>
-  <pubDate>Wed, 30 Mar 2016 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 29 Mar 2016 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>My Markdown thesis</title>
@@ -7008,7 +7008,7 @@ font-style: inherit;">buildGantt</span>(tasks))</span>
   <category>thesis</category>
   <category>latex</category>
   <guid>https://JiruHan.com/posts/2015-09-13-my-markdown-thesis/</guid>
-  <pubDate>Sun, 13 Sep 2015 00:00:00 GMT</pubDate>
+  <pubDate>Sat, 12 Sep 2015 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
