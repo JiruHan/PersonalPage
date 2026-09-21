@@ -11,7 +11,7 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: www.linkedin.com/in/jiru-han-b2326a198
+      href: https://www.linkedin.com/in/jiru-han-b2326a198
     - text: "{{< ai google-scholar >}} Scholar"
       href: https://scholar.google.com/citations?user=Cz5Wo-gAAAAJ&hl=en
     - text: "{{< ai orcid >}} ORCiD"
@@ -35,9 +35,31 @@ Check out my [projects](/projects) and [publications](/publications) to find out
 
 :::
 
+<div class="visitor-counter">
+
 <a href="https://info.flagcounter.com/6RVN">
-  <img src="https://s01.flagcounter.com/count2/6RVN/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" style="  display: block;margin-left: auto;margin-right: auto;width:100%">
+<img
+  src="https://s01.flagcounter.com/count2/6RVN/bg_FFFFFF/txt_333333/border_DDDDDD/columns_6/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/"
+  alt="Website visitors by country"
+>
 </a>
+
+</div>
+
+<style>
+.visitor-counter {
+  text-align: center;
+  margin: 2.5rem auto 1.5rem auto;
+  max-width: 900px;
+}
+
+.visitor-counter img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+</style>
+
 
 [Bahlo]: https://www.wehi.edu.au/laboratory/bahlo-lab "Bahlo Lab"
 [WEHI]: https://www.wehi.edu.au "Walter and Eliza Hall Institute of Medical Research"

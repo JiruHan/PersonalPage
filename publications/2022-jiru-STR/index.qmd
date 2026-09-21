@@ -12,6 +12,7 @@ abstract: |
 categories: ["Plasmodium", "short tandem repeats", "STR", "population genetics", "genetic diversity"]
 date: 2022-01-01
 links:
+  code: https://github.com/bahlolab/PlasmoSTR
   doi: https://doi.org/10.1371/journal.pgen.1009604
 google-scholar: true
 citation:
