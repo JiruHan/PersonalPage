@@ -1,0 +1,55 @@
+---
+title: "Luke Zappia"
+subtitle: |
+  Bioinformatician, data scientist, workflow engineer, package developer
+
+  (he/him)
+image: profile.png
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: mastodon
+      text: Mastodon
+      href: https://mastodon.au/@lazappi
+    - text: "{{< iconify fa6-brands bluesky >}} Bluesky"
+      href: https://bsky.app/profile/lazappi.bsky.social
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/lazappi/
+    - text: "{{< ai google-scholar >}} Scholar"
+      href: https://scholar.google.com/citations?user=F_LxcIoAAAAJ&hl=en
+    - text: "{{< ai orcid >}} ORCiD"
+      href: https://orcid.org/0000-0001-7744-8565
+    - text: "{{< ai impactstory >}} Impactstory"
+      href: https://profiles.impactstory.org/u/0000-0001-7744-8565
+    - icon: github
+      text: Github
+      href: https://github.com/lazappi
+---
+
+:::{#hero-heading}
+
+# Hi, I'm Luke 👋🏻
+
+I am a data scientist, software engineer and bioinformatician with an interest in interoperability, reproducible pipelines and data visualisation.
+
+I currently work as a data science engineer at [Data Intuitive][DI] where I build robust and scalable data processing pipelines and develop software for a range of clients.
+
+I was previously a postdoctoral researcher in the [Theis Lab][Theis] at the [Helmholtz Munich][Helmholtz] [Institute of Computational Biology][ICB] and the [Technische Universität München][TUM] and completed my PhD in the [Oshlack Lab][Oshlack] in Melbourne, Australia.
+My academic research focused on the analysis of single-cell RNA sequencing data including the development and benchmarking of computational methods.
+
+Check out my [posts](/posts), [projects](/projects) and [publications](/publications) to find out more about me and my work!
+
+:::
+
+<a href="https://info.flagcounter.com/6RVN">
+  <img src="https://s01.flagcounter.com/count2/6RVN/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" style="  display: block;margin-left: auto;margin-right: auto;width:100%">
+</a>
+
+[Theis]: https://www.helmholtz-munich.de/en/icb/research-groups/theis-lab "Theis Lab"
+[Helmholtz]: https://www.helmholtz-munich.de/en/ "Helmholtz Munich"
+[ICB]: https://www.helmholtz-munich.de/en/icb "Institute of Computational Biology"
+[TUM]: https://www.tum.de/en/ "Technische Universität München"
+[Oshlack]: http://oshlacklab.com/ "Oshlack Lab"
+[DI]: https://data-intuitive.com/ "Data Intuitive"
