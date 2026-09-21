@@ -20,7 +20,6 @@ citation:
   container-title: PLOS Genetics
   volume: "18"
   issue: "1"
-  article-number: "e1009604"
   url: https://doi.org/10.1371/journal.pgen.1009604
   google-scholar: true
 ---
