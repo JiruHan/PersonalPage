@@ -25,9 +25,9 @@ about:
 
 # Hi, I'm Jiru 👋🏻
 
-I am a computational geneticist and data scientist with interests in statistical genetics, computational biology, multi-omics, reproducible workflows, data visualisation, and biomedical AI.
+I am a computational geneticist and data scientist with a research background in statistical genetics, genomics, multi-omics integration, and a growing interest in biomedical AI and reproducible workflows.
 
-I am currently based in Hamburg, Germany, and exploring new research and industry opportunities in computational biology, bioinformatics, and data science, with a research background in statistical genetics, genomics, multi-omics integration, and biomedical AI.
+I am currently based in Hamburg, Germany, and exploring new research and industry opportunities in computational biology, bioinformatics, and data science.
 
 I was previously a Senior Research Fellow in the [Bahlo Lab][Bahlo] within the [Molecular Sciences Division][GGR] at the [Walter and Eliza Hall Institute of Medical Research][WEHI]. I completed my PhD in the [Bahlo Lab][Bahlo] at the University of Melbourne, Australia.
 
