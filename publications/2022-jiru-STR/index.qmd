@@ -3,14 +3,14 @@ title: Population-level genome-wide STR discovery and validation for population 
 author:
   - name: Jiru Han
     me: true
-  - Jennifer E Munro
-  - Andrew Kocoski
-  - Andrew E Barry
+  - Jacob E. Munro
+  - Anthony Kocoski
+  - Alyssa E. Barry
   - Melanie Bahlo
 abstract: |
-  Short tandem repeats (STRs) are highly polymorphic genetic markers that can provide valuable information about population structure and genetic diversity. However, genome-wide STR discovery and validation at the population level have been limited in Plasmodium species. Here, we develop a population-level genome-wide STR discovery and validation framework for Plasmodium and assess the utility of STR variation for population structure and genetic diversity analyses.
-categories: ["Plasmodium", "short tandem repeats", "STR", "population genetics", "genetic diversity"]
-date: 2022-01-01
+  Short tandem repeats (STRs) are highly informative genetic markers that have been used extensively in population genetics analysis. They are an important source of genetic diversity and can also have functional impact. Despite the availability of bioinformatic methods that permit large-scale genome-wide genotyping of STRs from whole genome sequencing data, they have not previously been applied to sequencing data from large collections of malaria parasite field samples. Here, we have genotyped STRs using HipSTR in more than 3,000 Plasmodium falciparum and 174 Plasmodium vivax published whole-genome sequence data from samples collected across the globe. High levels of noise and variability in the resultant callset necessitated the development of a novel method for quality control of STR genotype calls. A set of high-quality STR loci (6,768 from P. falciparum and 3,496 from P. vivax) were used to study Plasmodium genetic diversity, population structures and genomic signatures of selection and these were compared to genome-wide single nucleotide polymorphism (SNP) genotyping data. In addition, the genome-wide information about genetic variation and other characteristics of STRs in P. falciparum and P. vivax have been available in an interactive web-based R Shiny application PlasmoSTR (https://github.com/bahlolab/PlasmoSTR).
+categories: ["Plasmodium", "Short Tandem Repeats","Population Genetics"]
+date: 2022-01-10
 links:
   code: https://github.com/bahlolab/PlasmoSTR
   doi: https://doi.org/10.1371/journal.pgen.1009604

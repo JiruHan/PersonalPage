@@ -1,0 +1,27 @@
+---
+title: Polymyxin dose tunes the evolutionary dynamics of resistance in multidrug-resistant Acinetobacter baumannii
+author:
+  - Jinxin Zhao
+  - Yan Zhu
+  - Yu-Wei Lin
+  - Heidi Yu
+  - Hasini Wickremasinghe
+  - name: Jiru Han
+    me: true
+  - Tony Velkov
+  - Jian Li
+abstract: |
+  Evolutionary principles have informed the design of strategies that slow or prevent antibiotic resistance. However, how antibiotic treatment regimens shape the evolutionary dynamics of resistance mutations remains an open question. Here, we investigate varying concentrations of the last-resort polymyxins on the evolution of resistance in Acinetobacter baumannii. Polymyxin resistance was measured in 18 multidrug-resistant A. baumannii AB5075 populations treated over 14 days with concentrations of polymyxin B informed by human pharmacokinetics. Time-resolved whole-population sequencing was conducted to track the genetics and population dynamics of susceptible and resistant subpopulations. A critical threshold concentration of polymyxin B (1 mg/L; i.e. 4 × MIC) was identified. Below this threshold concentration, low levels of resistance repeatedly evolved, but no mutations were fixed, and this resistance was reversed upon removal of the antibiotic. This contrasted with evolution at super-MIC levels (≥4 × MIC) of polymyxin B, which drove the evolution of irreversible resistance, with higher levels of antibiotic correlating with greater rates of molecular evolution. Polymyxin-resistant subpopulations carried mutations in a variety of genes, most commonly pmrB, ompA, glmU/glmS, and wecB/wecC, which contributed to membrane remodelling and virulence in A. baumannii. Our results show that the strength of the selective pressure applied by polymyxin tunes the dynamics of genetic variants within the population, leading to different evolutionary outcomes for the degree, cost and reversibility of resistance. Our study highlights the critical role of integrating evolutionary findings into pharmacokinetics/pharmacodynamics to optimise antibiotic use in patients.
+categories: ["Antibiotic resistance"]
+date: 2022-03-10
+links:
+  doi: https://doi.org/10.1016/j.cmi.2022.02.043
+google-scholar: true
+citation:
+  type: article-journal
+  doi: 10.1016/j.cmi.2022.02.043
+  container-title: Clinical Microbiology and Infection
+  volume: "28"
+  issue: "7"
+  url: https://doi.org/10.1016/j.cmi.2022.02.043
+---

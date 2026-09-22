@@ -1,0 +1,34 @@
+---
+title: Understanding Plasmodium vivax recurrent infections using an amplicon deep sequencing assay, identity-by-descent and model-based classification
+author:
+  - Jason Rosado
+  - name: Jiru Han
+    me: true
+  - Thomas Obadia
+  - Jacob Munro
+  - Zeinabou Traore
+  - Kael Schoffer
+  - Jessica Brewster
+  - Caitlin Bourke
+  - Joseph M. Vinetz
+  - Aimee R. Taylor
+  - Michael White
+  - Melanie Bahlo
+  - Dionicia Gamboa
+  - Ivo Mueller
+  - Shazia Ruybal-Pesántez
+abstract: |
+  Understanding the genetic relatedness of Plasmodium vivax recurrences is essential for distinguishing between relapse, reinfection, and recrudescence—a distinction critical for evaluating treatment efficacy and transmission dynamics. We developed P. vivax AmpSeq (PvAmpSeq), an amplicon sequencing assay targeting 11 single-nucleotide polymorphism (SNP)-rich genomic regions. PvAmpSeq was applied to field isolates from a clinical trial in the Solomon Islands and a longitudinal cohort in Peru, and statistical models were applied for the genetic classification of recurrences. In the Solomon Islands trial, where participants received antimalarials at baseline, half of the recurrent infections showed >50% identity-by-descent relatedness to baseline parasites, allowing statistical classification as probable relapses and recrudescences, although with wide uncertainty. In the Peruvian cohort, 68% of the recurrences exhibited <25% relatedness. PvAmpSeq provides high-resolution genotyping to characterize P. vivax recurrences, offering insights into transmission and treatment outcomes. We also discuss the nuances and limitations of available statistical methods for the classification of P. vivax genotyping data.
+categories: ["Plasmodium", "Amplicon sequencing","Population Genetics"]
+date: 2026-04-18
+links:
+  doi: https://doi.org/10.1016/j.isci.2026.115799
+google-scholar: true
+citation:
+  type: article-journal
+  doi: 10.1016/j.isci.2026.115799
+  container-title: iScience
+  volume: "29"
+  issue: "5"
+  url: https://doi.org/10.1016/j.isci.2026.115799
+---

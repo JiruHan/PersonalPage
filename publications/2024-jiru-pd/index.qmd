@@ -1,0 +1,29 @@
+---
+title: Peripheral immune cell abundance differences link blood mitochondrial DNA copy number and Parkinson’s disease
+author:
+  - Longfei Wang
+  - name: Jiru Han
+    me: true
+  - Liam G. Fearnley
+  - Michael Milton
+  - Haloom Rafehi
+  - Joshua Reid
+  - Zachary F. Gerring
+  - Shashank Masaldan
+  - Tali Lang
+  - Terence P. Speed
+  - Melanie Bahlo
+abstract: |
+  Mitochondrial dysfunction plays an important role in Parkinson’s disease (PD), with mitochondrial DNA copy number (mtDNA-CN) emerging as a potential marker for mitochondrial health. We investigated the links between blood mtDNA-CN and PD severity and risk using the Accelerating Medicines Partnership program for Parkinson’s Disease dataset, replicating our results in the UK Biobank. Our findings reveal that reduced blood mtDNA-CN levels are associated with heightened PD risk and increased severity of motor symptoms and olfactory dysfunction. We estimated blood cell composition using complete blood cell profile when available or RNA-sequencing data as a surrogate. After adjusting for blood cell composition, the associations between mtDNA-CN and PD risk and clinical symptoms became non-significant. Bidirectional Mendelian randomization analysis also found no evidence of a direct causal relationship between blood mtDNA-CN and PD susceptibility. Hence peripheral inflammatory immune responses rather than mitochondrial dysfunction underpin these previously identified associations in PD.
+categories: ["Parkinson’s disease", "Mitochondrial DNA copy number","UK Biobank"]
+date: 2022-11-14
+links:
+  doi: https://doi.org/10.1038/s41531-024-00831-x
+google-scholar: true
+citation:
+  type: article-journal
+  doi: 10.1038/s41531-024-00831-x
+  container-title: npj Parkinson's Disease
+  volume: "10"
+  url: https://doi.org/10.1038/s41531-024-00831-x
+---

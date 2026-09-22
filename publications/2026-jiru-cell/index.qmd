@@ -1,0 +1,66 @@
+---
+title: The E3-ome gene-centric compendium reveals the human E3 ligase landscape
+author:
+  - Ngee Kiat Chua
+  - Tania J González-Robles
+  - Cameron J Reddington
+  - Jane Dudley-Fraser
+  - Richard W Birkinshaw
+  - name: Jiru Han
+    me: true
+  - Ashleigh Solano
+  - Soon Wei Wong
+  - Tomasz Kochańczyk
+  - Joshua J Peter
+  - Mark A Nakasone
+  - Florian Aust
+  - Jacob Munro
+  - Yeh Huei Tong
+  - Julie Iskander
+  - Waruni Abeysekera
+  - Alex Garnham
+  - Hannah Huckstep
+  - Matthew E Ritchie
+  - Ingrid Wertz
+  - Sarah Hymowitz
+  - Sharad Kumar
+  - Ron C Conaway
+  - Gilbert G Privé
+  - Alex N Bullock
+  - Jeffrey J Babon
+  - Rachel E Klevit
+  - Sonja Lorenz
+  - Alessio Ciulli
+  - Eric S Fischer
+  - Nicolas H Thomä
+  - Radosław P Nowak
+  - Brenda A Schulman
+  - Michael Rapé
+  - Katrin Rittinger
+  - Julia K Pagan
+  - Melanie Bahlo
+  - Joel P Mackay
+  - Peter D Mace
+  - Christopher D Lima
+  - Ronald T Hay
+  - David Komander
+  - Bernhard C Lechtenberg
+  - Claudio A P Joazeiro
+  - Michele Pagano
+  - Kay Hofmann
+  - Rebecca Feltham
+abstract: |
+  To define and systematically characterize the human E3 ubiquitin ligase (E3) landscape, we generated the E3-ome, a compendium of E3s encoded by the human genome. The E3-ome integrates experimental data, bioinformatics, and published research, revealing 672 high-confidence E3s. We standardized E3 classifications to create a unified framework for annotation and comparative analysis. The E3-ome identified several previously unrecognized domains, motifs, E3 candidates, and relationships, expanding the diversity of E3s. Furthermore, the E3-ome mapped the spatial and physiological organization of E3s across human tissues and cell types, revealing context-dependent E3s. Genetic analyses identified disease-associated variants across the E3-ome, linking E3s to diverse human pathologies. Together, these analyses define the human E3 landscape at high resolution and deliver a foundational resource to drive mechanistic and therapeutic discovery.
+categories: ["E3 ubiquitin ligase", "Biobank", "Gene/variant-phenotype associations"]
+date: 2026-04-02
+links:
+  doi: https://doi.org/10.1016/j.cell.2026.01.029
+google-scholar: true
+citation:
+  type: article-journal
+  doi: 10.1016/j.cell.2026.01.029
+  container-title: Cell
+  volume: "189"
+  issue: "7"
+  url: https://doi.org/10.1016/j.cell.2026.01.029
+---

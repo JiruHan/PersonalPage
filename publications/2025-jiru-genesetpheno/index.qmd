@@ -1,0 +1,24 @@
+---
+title: GeneSetPheno: a web application for the integration, summary, and visualization of gene and variant–phenotype associations across gene sets
+author:
+  - name: Jiru Han
+    me: true
+  - Zachary F Gerring
+  - Longfei Wang
+  - Melanie Bahlo
+abstract: |
+  GeneSetPheno is a user-friendly graphical interface that integrates, summarizes, and visualizes gene and variant-phenotype associations across genomic resources. It allows users to explore interrelationships between genetic variants and phenotypes, offering insights into the genetic factors driving phenotypic variation within user-defined gene sets. GeneSetPheno also supports comparisons across gene sets to identify shared or unique genetic variants, phenotypic associations, biological pathways, and potential gene-gene interactions. GeneSetPheno is a free and highly configurable tool for exploring the complex relationships between gene sets, genetic variants, and phenotypes. Target users include molecular biologists and clinicians who wish to explore a gene or gene set of particular interest.
+categories: ["Graphical interface application", "Gene/variant-phenotype associations","Biobank"]
+date: 2025-04-17
+links:
+  code: https://github.com/bahlolab/GeneSetPheno
+  doi: https://doi.org/10.1093/bioadv/vbaf078
+google-scholar: true
+citation:
+  type: article-journal
+  doi: 10.1093/bioadv/vbaf078
+  container-title: Bioinformatics Advances
+  volume: "5"
+  issue: "1"
+  url: https://doi.org/10.1093/bioadv/vbaf078
+---
