@@ -1,15 +1,10 @@
 ---
 title: "Projects"
 listing:
-  - id: packages
+  - id: Large-scale Biobank Imaging-Genetics
     contents:
-    - "Splatter/index.qmd"
-    - "anndataR/index.qmd"
-    - "zellkonverter/index.qmd"
-    - "laminr/index.qmd"
-    - "clustree/index.qmd"
-    - "clamour/index.qmd"
-    - "doilinker/index.qmd"
+    - "spinalcord/index.qmd"
+    - "rib/index.qmd"
     type: grid
     sort: "false"
     categories: true
@@ -44,7 +39,7 @@ listing:
     categories: true
     fields: [image, title, description, categories]
     image-placeholder: "../icon.png"
-  - id: community
+  - id: Software Development & Interactive Research Platforms
     contents:
     - "open-problems-single-cell/index.qmd"
     - "single-cell-best-practices/index.qmd"

@@ -1,0 +1,23 @@
+---
+title: Identification of novel vertebral development factors through UK Biobank candidate gene search and body imaging analysis
+author:
+  - Zhuopin Sun#
+  - name: Jiru Han#
+    me: true
+  - Liam G Fearnley
+  - Edwina McGlinn
+  - Melanie Bahlo
+abstract: |
+  Numerical variations and transitional anatomy in the human vertebral column represent a significant yet understudied aspect of skeletal development with potential effects on multiple physiological systems. Utilising UK Biobank data, we integrated genetic analysis with deep learning-based multi-modal body imaging to investigate genetic factors associated with thoracic and lumbar spine anatomy. We identified three key genes, GPC3, NR6A1, and VRTN, associated with numerical variations of the lumbar vertebrae and ribs, with VRTN reported for the first time in humans as influencing vertebral development. Our findings reveal significant associations between these genetic variants, vertebral and rib anomalies, and increased prevalence of chronic pain. This study highlights the genetic underpinnings of vertebral development and demonstrates the utility of combining imaging and genetic data to uncover skeletal variation and its health implications for population health.
+categories: ["Imaging-genetics", "UK Biobank"]
+date: 2025-11-19
+links:
+  doi: https://doi.org/10.1038/s42003-025-09021-8
+google-scholar: true
+citation:
+  type: article-journal
+  doi: 10.1038/s42003-025-09021-8
+  container-title: Communications Biology
+  volume: "8"
+  url: https://doi.org/10.1038/s42003-025-09021-8
+---
