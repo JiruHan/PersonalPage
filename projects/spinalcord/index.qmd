@@ -11,6 +11,7 @@ author:
   - Ian H. Harding
   - Thiago J. R. Rezende
   - Melanie Bahlo
+image: spinalcordGWAS.png  
 abstract: |
   The spinal cord is critical to motor, sensory, autonomic function, and increasingly implicated in neurological disease and human health, yet its genetic architecture remains largely unexplored. We perform large-scale phenotyping of the upper cervical spinal cord (C1-C3) structure using brain magnetic resonance imaging from over 80,000 UK Biobank participants, extracting shape metrics including cross-sectional area, diameters, and eccentricity. We identify a total of 179 independent genome-wide significant variants, with cervical spinal cord morphology showing moderate to high SNP-based heritability (0.16 to 0.42). We also uncover sex-specific genetic signals, highlighting potential biological sex differences in spinal cord development. In addition, spinal cord structure is associated with a wide range of neurological, metabolic, and systemic conditions, such as multiple sclerosis, neuropathies, diabetes, and attention-deficit/hyperactivity disorder. These findings establish the cervical spinal cord as a genetically informative and health relevant structure, offering opportunities to study its role in disease mechanisms and human health.
 categories: ["Spinal cord", "GWAS","Imaging-genetics"]
