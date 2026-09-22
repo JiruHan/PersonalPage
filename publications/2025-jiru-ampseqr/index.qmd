@@ -1,5 +1,5 @@
 ---
-title: AmpSeqR: an R package for amplicon deep sequencing data analysis
+title: AmpSeqR an R package for amplicon deep sequencing data analysis
 author:
   - name: Jiru Han
     me: true
