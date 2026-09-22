@@ -20,13 +20,6 @@
     ]
   },
   {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/2025-zappia-feature-selection/index.html",
-      "/publications/2022-jiru-STR/index.html"
-    ]
-  },
-  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/Splatter/index.html",
@@ -48,6 +41,23 @@
       "/projects/single-cell-best-practices/index.html",
       "/projects/scanpy-in-R/index.html",
       "/projects/r-pkg-dev/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2026-jiru-spinalcord/index.html",
+      "/publications/2026-jiru-amp/index.html",
+      "/publications/2026-jiru-cell/index.html",
+      "/publications/2025-jiru-amd/index.html",
+      "/publications/2025-jiru-rib/index.html",
+      "/publications/2025-jiru-ampseqr/index.html",
+      "/publications/2025-jiru-genesetpheno/index.html",
+      "/publications/2024-jiru-phagege/index.html",
+      "/publications/2024-jiru-haemoglobin/index.html",
+      "/publications/2024-jiru-pd/index.html",
+      "/publications/2022-jiru-cmi/index.html",
+      "/publications/2022-jiru-STR/index.html"
     ]
   }
 ]
