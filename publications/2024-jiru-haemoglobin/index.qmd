@@ -1,5 +1,5 @@
 ---
-title: Haemoglobin thresholds to define anaemia from age 6 months to 65 years: estimates from international data sources
+title: Haemoglobin thresholds to define anaemia from age 6 months to 65 years estimates from international data sources
 author:
   - Sabine Braat
   - Katherine L Fielding
