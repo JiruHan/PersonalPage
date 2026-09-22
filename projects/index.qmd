@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 listing:
-  - id: Large-scale Biobank Imaging-Genetics
+  - id: biobank
     contents:
     - "spinalcord/index.qmd"
     - "rib/index.qmd"
@@ -55,7 +55,7 @@ title-block-banner: true
 ---
 # Large-scale Biobank Imaging-Genetics
 
-:::{#Biobank}
+:::{#biobank}
 :::
 
 # Packages
