@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "talks/index.html",
-    "href": "talks/index.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Getting started with Open Problems in Single-Cell Analysis\n\n\n\nsingle-cell\n\nopen problems\n\nbenchmarking\n\nworkshop\n\n\n\nPresentation at the MBZUAI Single Cell Summer Workshop introducing the Open Problems in Single-Cell Analysis project and how to get involved\n\n\n\n\n\nMay 9, 2025\n\n\n\n\n\n\n\nSuggestions for successful scRNA-seq analysis\n\n\n\nsingle-cell\n\nrna-seq\n\nanalysis\n\nbest practices\n\n\n\nPresentation at the 9th German Pharm-Tox Summit on planning a successful scRNA-seq experiment from the analysts perspective\n\n\n\n\n\nMar 13, 2024\n\n\n\n\n\n\n\nSuccessful scRNA-seq analysis\n\n\n\nsingle-cell\n\nrna-seq\n\nanalysis\n\nbest practices\n\n\n\nPresentation at the ILC Summer School 2022 on planning a successful scRNA-seq experiment\n\n\n\n\n\nJun 30, 2022\n\n\n\n\n\n\n\nInteroperability between Bioconductor and Python for scRNA-seq analysis\n\n\n\nsingle-cell\n\nrna-seq\n\nsoftware\n\ninteroperability\n\nR\n\npython\n\nBioconductor\n\n\n\nInvited keynote at the European Bioconductor meeting 2020\n\n\n\n\n\nDec 18, 2020\n\n\n\n\n\n\n\nTools and techniques for single-cell RNA sequencing data\n\n\n\nsingle-cell\n\nrna-seq\n\nsimulation\n\ndatabase\n\nvisualisation\n\nkidney\n\norganoids\n\nanalysis\n\nsoftware\n\nsplatter\n\nclustree\n\nscRNA-tools\n\nPhD\n\n\n\nMy PhD completion seminar\n\n\n\n\n\nMar 22, 2019\n\n\n\n\n\n\n\nTools, simulations and trees for scRNA-seq\n\n\n\nsingle-cell\n\nrna-seq\n\nsimulation\n\ndatabase\n\nvisualisation\n\nsplatter\n\nclustree\n\nscrna-tools\n\nsoftware\n\nkidney\n\norganoids\n\nanalysis\n\nPhD\n\n\n\nPresentation at the Institute of Computational Biology where I described my PhD projects\n\n\n\n\n\nSep 27, 2018\n\n\n\n\n\n\n\nUsing clustering trees to visualise scRNA-seq data\n\n\n\nsingle-cell\n\nrna-seq\n\nclustering\n\nvisualisation\n\nsoftware\n\nclustree\n\nR\n\nCRAN\n\n\n\nSelected talk at the Genome Informatics 2018 conference where I described how clustering trees can be used with scRNA-seq data\n\n\n\n\n\nSep 17, 2018\n\n\n\n\n\n\n\nclustree: producing clustering trees using ggraph\n\n\n\nvisualisation\n\nsoftware\n\nR\n\n\n\nPresentation at the userR! 2018 conference introducing the clustree package and demonstrating how it makes use of the ggraph package\n\n\n\n\n\nJul 21, 2018\n\n\n\n\n\n\n\nClustering trees for visualising scRNA-seq data\n\n\n\nvisualisation\n\nclustering\n\nsoftware\n\nclustree\n\nR\n\nCRAN\n\n\n\nSelected talk at the Oz Single Cells 2018 conference where I presented clustering trees and the clustree package\n\n\n\n\n\nJul 16, 2018\n\n\n\n\n\n\n\nSplatter, a package for simulating single-cell RNA sequencing data\n\n\n\nsingle-cell\n\nRNA-seq\n\nsimulation\n\nsoftware\n\nsplatter\n\nR\n\nbioconductor\n\n\n\nSelected talk at the 2017 Bioconductor Asia Meeting where I presented technical details of the Splatter package\n\n\n\n\n\nNov 17, 2017\n\n\n\n\n\n\n\nSimulation and analysis tools for single-cell RNA sequencing data\n\n\n\nsingle-cell\n\nrna-seq\n\nsimulation\n\ndatabase\n\nsplatter\n\nscRNA-tools\n\nsoftware\n\n\n\nSelected talk at the Genome Informatics 2017 conference describing Splatter and the scRNA-tools database\n\n\n\n\n\nNov 1, 2017\n\n\n\n\n\n\n\nSingle cells, simulation and kidneys in a dish\n\n\n\nsingle-cell\n\nrna-seq\n\nsimulation\n\nkidney\n\norganoids\n\nvisualisation\n\nscrna-tools\n\ndatabase\n\nsplatter\n\n\n\nPresentation at the Berkeley Statistics and Genomics Seminar describing my PhD projects\n\n\n\n\n\nOct 27, 2017\n\n\n\n\n\n\n\nBuilding a clustering tree\n\n\n\nvisualisation\n\nclustering\n\n\n\nJoining the Dots Visualisation Symposium talk describing the clustering tree visualisation algorithm\n\n\n\n\n\nAug 17, 2017\n\n\n\n\n\n\n\nSingle-cells, simulation and kidneys in a dish\n\n\n\nsingle-cell\n\nrna-seq\n\nsimulation\n\nvisualisation\n\ndatabase\n\norganoids\n\nkidney\n\nsoftware\n\nsplatter\n\nscRNA-tools\n\nR\n\nPhD\n\n\n\nWEHI Bioinformatics seminar series presenting my PhD projects\n\n\n\n\n\nJul 17, 2017\n\n\n\n\n\n\n\nSimplifying simulation of single-cell RNA-seq\n\n\n\nsingle-cell\n\nrna-seq\n\nsimulation\n\nsoftware\n\nsplatter\n\nR\n\n\n\nPresentation at the 2016 COMBINE student symposium introducing the Splatter package and the Splat scRNA-seq simulation model\n\n\n\n\n\nOct 31, 2016\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "publications/2022-jiru-STR/index.html",
     "href": "publications/2022-jiru-STR/index.html",
     "title": "Population-level genome-wide STR discovery and validation for population structure and genetic diversity assessment of Plasmodium species",
@@ -56,74 +49,32 @@
     "text": "CitationBibTeX citation:@article{han2025,\n  author = {Han, Jiru and F Gerring, Zachary and Wang, Longfei and\n    Bahlo, Melanie},\n  title = {GeneSetPheno a Web Application for the Integration, Summary,\n    and Visualization of Gene and Variant–Phenotype Associations Across\n    Gene Sets},\n  journal = {Bioinformatics Advances},\n  volume = {5},\n  number = {1},\n  date = {2025-04-17},\n  url = {https://doi.org/10.1093/bioadv/vbaf078},\n  doi = {10.1093/bioadv/vbaf078},\n  langid = {en},\n  abstract = {GeneSetPheno is a user-friendly graphical interface that\n    integrates, summarizes, and visualizes gene and variant-phenotype\n    associations across genomic resources. It allows users to explore\n    interrelationships between genetic variants and phenotypes, offering\n    insights into the genetic factors driving phenotypic variation\n    within user-defined gene sets. GeneSetPheno also supports\n    comparisons across gene sets to identify shared or unique genetic\n    variants, phenotypic associations, biological pathways, and\n    potential gene-gene interactions. GeneSetPheno is a free and highly\n    configurable tool for exploring the complex relationships between\n    gene sets, genetic variants, and phenotypes. Target users include\n    molecular biologists and clinicians who wish to explore a gene or\n    gene set of particular interest.}\n}\nFor attribution, please cite this work as:\nHan, Jiru, Zachary F Gerring, Longfei Wang, and Melanie Bahlo. 2025.\n“GeneSetPheno a Web Application for the Integration, Summary, and\nVisualization of Gene and Variant–Phenotype Associations Across Gene\nSets.” Bioinformatics Advances 5 (1). https://doi.org/10.1093/bioadv/vbaf078."
   },
   {
-    "objectID": "projects/open-problems-single-cell/index.html",
-    "href": "projects/open-problems-single-cell/index.html",
-    "title": "Open Problems in Single-Cell Analysis",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "The ability to profile individual cells has revolutionised biological research but analysing this data is complex and there are now thousands of analysis tools available. Benchmarking studies provide a valuable insight into how tools perform at various tasks but have an inherent limitation in that they only capture a snapshot of the analysis landscape at a given time. Open Problems aims to define a set of standard problems in single-cell analysis and transform them into a living benchmark, inspired by standard tasks in maching learning fields. This relies on a community driven approach where tasks are defined by the community, methods, metrics and datasets are contributed and results are provided to help guide analysis decisions and inspire the development of new approaches. I participated in the jamboree in 2021 where I became the leader for the dimensionality reduction for 2D visualisation task. This involves coordinating code contributions to the task, as well as contributing to the overall project."
+    "text": "single-cell\n\nrna-seq\n\ninteroperability\n\nsoftware\n\nR\n\nBioconductor\n\n\n\nAnnData interoperability in R\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/doilinker/index.html",
-    "href": "projects/doilinker/index.html",
-    "title": "doilinker",
-    "section": "",
-    "text": "{doilinker} allows you to link related DOIs. Usually this is to find the published version of a preprint (or the reverse) It does this by querying the Crossref database using {rcrossref} and matching DOIs using the method described by Cabanac, Oikonomidi and Boutron."
+    "objectID": "projects/index.html#analysis-and-data",
+    "href": "projects/index.html#analysis-and-data",
+    "title": "Projects",
+    "section": "Analysis and data",
+    "text": "Analysis and data\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/sfaira-portal/index.html",
-    "href": "projects/sfaira-portal/index.html",
-    "title": "sfaira portal",
-    "section": "",
-    "text": "sfaira is a single-cell data zoo for public data sets paired with a model zoo for executable pre-trained models. The sfaira portal is a website displaying the datasets available through sfaira with an easy-to-use interactive interface. The interface allows users to search for datasets using metadata such as organism, tissue, cell type labels, source, assay or publication date. sfaira portal was built using the Vue JavaScript framework."
+    "objectID": "projects/index.html#web",
+    "href": "projects/index.html#web",
+    "title": "Projects",
+    "section": "Web",
+    "text": "Web\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/scanpy-in-R/index.html",
-    "href": "projects/scanpy-in-R/index.html",
-    "title": "Scanpy in R",
-    "section": "",
-    "text": "This tutorial covers how to set up a environment that lets you interact with Scanpy from R. This includes converting Python AnnData objects to R SingleCellExperiment and Seurat objects as well as interacting with a Python environment directly in an R Markdown document. It demonstrates some of the functions in Scanpy but doesn’t cover everything the package can do or how best to use Scanpy for your analysis."
-  },
-  {
-    "objectID": "projects/Splatter/index.html",
-    "href": "projects/Splatter/index.html",
-    "title": "Splatter",
-    "section": "",
-    "text": "Splatter is a Bioconductor R package for the simulation of single-cell RNA sequencing count data (https://bioconductor.org/packages/splatter/). It provides a simple interface for creating complex simulations that are reproducible and well-documented. Parameters can be estimated from real data and functions are provided for comparing real and simulated datasets."
-  },
-  {
-    "objectID": "projects/anndataR/index.html",
-    "href": "projects/anndataR/index.html",
-    "title": "anndataR",
-    "section": "",
-    "text": "{anndataR} is a Bioconductor R implementation of the AnnData data structure, used in the Python scverse ecosystem. It provides an R AnnData object with native reading and writing of H5AD files. Users can interact with the AnnData object directly, or use flexible functions to convert to and from SingleCellExperiment or Seurat objects."
-  },
-  {
-    "objectID": "projects/nba-positions/index.html",
-    "href": "projects/nba-positions/index.html",
-    "title": "NBA positions",
-    "section": "",
-    "text": "This repository contains the NBA positions dataset. The main dataset is designed to replace the iris dataset and contains basic statistics about 150 NBA Centers, Point Guards and Shooting Guards from 2017. There is a also a expanded dataset (nba_positions_full) the includes the same statistics for all NBA players in 2017."
-  },
-  {
-    "objectID": "projects/zellkonverter/index.html",
-    "href": "projects/zellkonverter/index.html",
-    "title": "zellkonverter",
-    "section": "",
-    "text": "zellkonverter is a Bioconductor R package that provides methods to convert between Python AnnData objects and SingleCellExperiment objects (https://bioconductor.org/packages/zellkonveter/). These are primarily intended for use by downstream Bioconductor packages that wrap Python methods for single-cell data analysis. It also includes functions to read and write H5AD files used for saving AnnData objects to disk."
-  },
-  {
-    "objectID": "projects/scRNA-tools/index.html",
-    "href": "projects/scRNA-tools/index.html",
-    "title": "scRNA-tools",
-    "section": "",
-    "text": "The scRNA-tools database and website (https://www.scRNA-tools.org) is a catalogue of software tools for the analysis of single-cell RNA sequencing data. We record details about what the tools can be used as well as where they are available and any associated publications. This is designed to be an open resource and we welcome submissions and other contributions from the community."
-  },
-  {
-    "objectID": "projects/tidydirectory/index.html",
-    "href": "projects/tidydirectory/index.html",
-    "title": "tidydirectory",
-    "section": "",
-    "text": "tidydirectory is a Python script for tidying directories which I wrote for automatically sorting my downloads folder. It checks the date that files in a directory were created or last accessed and moves old files to an archive directory. Separately, old files in the archive are deleted.\nFiles in the archive are organised based on a custom mapping between file extensions and categories, for example to move all .R, .py and .sh files to a code directory.\nAvailable from my GitHub https://github.com/lazappi/tidydirectory."
+    "objectID": "projects/index.html#community-and-training",
+    "href": "projects/index.html#community-and-training",
+    "title": "Projects",
+    "section": "Community and training",
+    "text": "Community and training\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -133,95 +84,11 @@
     "text": "Hi, I’m Jiru 👋🏻\nI am a computational geneticist and data scientist with a research background in statistical genetics, genomics, multi-omics integration, and a growing interest in biomedical AI and reproducible workflows.\nI am currently based in Hamburg, Germany, and exploring new research and industry opportunities in computational biology, bioinformatics, and data science.\nI was previously a Senior Research Fellow in the Bahlo Lab within the Molecular Sciences Division at the Walter and Eliza Hall Institute of Medical Research. I completed my PhD in the Bahlo Lab at the University of Melbourne, Australia.\nCheck out my projects and publications to find out more about me and my work!"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/anndataR/index.html",
+    "href": "projects/anndataR/index.html",
+    "title": "anndataR",
     "section": "",
-    "text": "single-cell\n\nrna-seq\n\nsimulation\n\nsoftware\n\nR\n\nBioconductor\n\n\n\nBioconductor R package for simulating scRNA-seq data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsingle-cell\n\nrna-seq\n\ninteroperability\n\nsoftware\n\nR\n\nBioconductor\n\n\n\nAnnData interoperability in R\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsingle-cell\n\nrna-seq\n\ninteroperability\n\nsoftware\n\nR\n\nBioconductor\n\n\n\nBioconductor R package for converting between scRNA-seq objects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsoftware\n\nR\n\nCRAN\n\ndatabase\n\ninteroperability\n\n\n\nR client for LaminDB\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nclustering\n\nvisualisation\n\nsoftware\n\nR\n\n\n\nCRAN R package for creating clustering trees, a visualisation for looking at clustering across resolutions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntwitter\n\nanalysis\n\nsoftware\n\nR\n\n\n\nAn R package for setting up a website to display analysis of Twitter hashtags\n\n\n\n\n\n\n\n\n\n\n\n\nsoftware\n\nR\n\n\n\nAn R package for linking DOIs between preprints and publications\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/index.html#analysis-and-data",
-    "href": "projects/index.html#analysis-and-data",
-    "title": "Projects",
-    "section": "Analysis and data",
-    "text": "Analysis and data\n\n\n\n\n\n\n\n\n\n\nOECD housing\n\n\n\nanalysis\n\nhousing\n\npython\n\n\n\nSome basic analysis of housing data from the OECD performed in Python\n\n\n\n\n\n\n\n\n\n\n\n\nPhD commits\n\n\n\nvisualisation\n\nR\n\n\n\nFunctions for scraping git commits from repositories associated with a PhD (or anything else) and plotting them\n\n\n\n\n\n\n\n\n\n\n\n\nTwitter stats\n\n\n\nwebsite\n\ntwitter\n\nanalysis\n\nR\n\n\n\nAnalysis of Twitter activity for hashtags from various events, usually academic conferences\n\n\n\n\n\n\n\n\n\n\n\n\nNBA positions\n\n\n\ndataset\n\n\n\nA dataset of NBA positions designed to replace the iris dataset\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/index.html#web",
-    "href": "projects/index.html#web",
-    "title": "Projects",
-    "section": "Web",
-    "text": "Web\n\n\n\n\n\n\n\n\n\n\nscRNA-tools\n\n\n\nsingle-cell\n\nrna-seq\n\ndatabase\n\nwebsite\n\n\n\nDatabase and website cataloguing software tools for analysing single-cell RNA sequencing data\n\n\n\n\n\n\n\n\n\n\n\n\nsfaira portal\n\n\n\nsingle-cell\n\nrna-seq\n\ndatabase\n\nwebsite\n\nJavaScript\n\n\n\nA website built using Vue for viewing the sfaira database\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/index.html#community-and-training",
-    "href": "projects/index.html#community-and-training",
-    "title": "Projects",
-    "section": "Community and training",
-    "text": "Community and training\n\n\n\n\n\n\n\n\n\n\nOpen Problems in Single-Cell Analysis\n\n\n\nbenchmarking\n\nsingle-cell\n\nwebsite\n\n\n\nAn effort to formalise and benchmark open problems in single-cell genomics analysis\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-cell best practices\n\n\n\nsingle-cell\n\nanalysis\n\nmultiomics\n\nbest practices\n\nbook\n\n\n\nAn online book covering the best practices for multiomic single-cell analysis with extensive tutorials and code examples\n\n\n\n\n\n\n\n\n\n\n\n\nScanpy in R\n\n\n\nsingle-cell\n\nrna-seq\n\ninteroperability\n\npython\n\nscanpy\n\nR\n\ntutorial\n\n\n\nTutorial describing how to interact with the Scanpy Python package from R\n\n\n\n\n\n\n\n\n\n\n\n\nR Package Development Workshop\n\n\n\nworkshop\n\npackage development\n\nR\n\ntraining\n\n\n\nMaterials for the COMBINE Australia R package development workshop\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/phd-commits/index.html",
-    "href": "projects/phd-commits/index.html",
-    "title": "PhD commits",
-    "section": "",
-    "text": "R scripts that can be used to scrape the git commit history of a project. The commits can then be categorised and used to produce a animated plot of the project over time as shown below. This was originally created as a way of displaying activity of my PhD but could be used for any project."
-  },
-  {
-    "objectID": "projects/prettytc/index.html",
-    "href": "projects/prettytc/index.html",
-    "title": "prettytc",
-    "section": "",
-    "text": "TeXcount is excellent and by far the best way to produce wordcounts of LaTeX documents but I found the output became hard to read for large documents.\nprettytc is a Python script that runs TeXcount and parses the output in a way that shows more of the document structure and provides totals at each level. It can be run from the command line and any options are passed to TeXcount.\nAvailable from my GitHub https://github.com/lazappi/prettytc."
-  },
-  {
-    "objectID": "projects/twitter-stats/index.html",
-    "href": "projects/twitter-stats/index.html",
-    "title": "Twitter stats",
-    "section": "",
-    "text": "Website displaying analysis of Twitter activity from various event hashtags, usually academic conferences (https://lazappi.github.io/twitter-stats/index.html). Includes information such as when people were tweeting, who there were connected to and the most common topics during the event."
-  },
-  {
-    "objectID": "projects/clustree/index.html",
-    "href": "projects/clustree/index.html",
-    "title": "clustree",
-    "section": "",
-    "text": "Deciding what resolution to use can be a difficult question when approaching a clustering analysis. One way to approach this problem is to look at how samples move as the number of clusters increases. The clustree package is available from CRAN (https://cran.r-project.org/package=clustree) and allows you to produce clustering trees, a visualisation for interrogating clusterings as resolution increases."
-  },
-  {
-    "objectID": "projects/oecd-housing/index.html",
-    "href": "projects/oecd-housing/index.html",
-    "title": "OECD housing",
-    "section": "",
-    "text": "A short analysis of housing data from the Organisation for Economic Co-operation and Development (OECD). I looked at two aspects, the cost and affordability of housing and the amount of taxation associated with it. I was interested both in how this aspects have changed in different countries over time but also how they relate to each other. For example it could be that countries with higher rates of housing taxation have lower housing costs (because taxation increases the cost of purchasing a house) or that that countries with higher tax rates are encouraged to increase the cost of housing in order to generate more tax revenue. I highlighted a few countries of interest that stand out in the dataset, specifically New Zealand, Canada, Sweden and Japan. The analysis was performed in Python with the final analysis displayed in a Quarto document."
-  },
-  {
-    "objectID": "projects/single-cell-best-practices/index.html",
-    "href": "projects/single-cell-best-practices/index.html",
-    "title": "Single-cell best practices",
-    "section": "",
-    "text": "Single-cell best practices is an online book that attempts to draw together established best practices for multiomic single-cell analysis, including extensive tutorials and code examples. It is not limited to any particular tools or platforms but instead tries to promote the best performing approaches for different tasks as determined by independent projects. This is intended to be a living resource that will be updated as best practices evole with contributions of all kinds welcome from the community. I was part of the team involved in planning the project within the Theis lab and have written the integration and interoperability chapters as well as contibuting to other parts of the book."
-  },
-  {
-    "objectID": "projects/laminr/index.html",
-    "href": "projects/laminr/index.html",
-    "title": "LaminR",
-    "section": "",
-    "text": "R client for LaminDB, a data framework for biology. Provides an R interface by wrapping the Python lamindb package using flexible infrastructure.\nDeveloped for Lamin Labs while working at Data Intuitive."
-  },
-  {
-    "objectID": "projects/r-pkg-dev/index.html",
-    "href": "projects/r-pkg-dev/index.html",
-    "title": "R Package Development Workshop",
-    "section": "",
-    "text": "COMBINE is an Australian organisation for student in bioinformatics, computational biology and related fields. One way in which COMBINE aims to support the student community is by providing training. I was the lead author on the materials for this workshop which covers an introduction to developing an R package and were produced using bookdown. The workshop was first run in Melbourne in September 2019 where I was the lead instructor."
-  },
-  {
-    "objectID": "projects/clamour/index.html",
-    "href": "projects/clamour/index.html",
-    "title": "clamour",
-    "section": "",
-    "text": "The {clamour} packages provides a template for setting up a website to display the results of analysis of Twitter hashtags, usually associated with an event such as an academic conference. More details can be found on the project website (https://lazappi.github.io/clamour/index.html). There is also an example website showing what the results look like (https://lazappi.github.io/clamour-example/) or you can have a look at my personal Twitter stats site (https://lazappi.github.io/twitter-stats/)."
+    "text": "{anndataR} is a Bioconductor R implementation of the AnnData data structure, used in the Python scverse ecosystem. It provides an R AnnData object with native reading and writing of H5AD files. Users can interact with the AnnData object directly, or use flexible functions to convert to and from SingleCellExperiment or Seurat objects."
   },
   {
     "objectID": "publications/index.html",
