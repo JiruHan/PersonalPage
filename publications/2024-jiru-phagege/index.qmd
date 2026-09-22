@@ -1,5 +1,5 @@
 ---
-title: PhageGE: an interactive web platform for exploratory analysis and visualization of bacteriophage genomes
+title: PhageGE an interactive web platform for exploratory analysis and visualization of bacteriophage genomes
 author:
   - Jinxin Zhao
   - name: Jiru Han
