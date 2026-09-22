@@ -1,5 +1,5 @@
 ---
-title: GeneSetPheno: a web application for the integration, summary, and visualization of gene and variant–phenotype associations across gene sets
+title: GeneSetPheno a web application for the integration, summary, and visualization of gene and variant–phenotype associations across gene sets
 author:
   - name: Jiru Han
     me: true
