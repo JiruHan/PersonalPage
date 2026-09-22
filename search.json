@@ -49,11 +49,11 @@
     "text": "CitationBibTeX citation:@article{han2025,\n  author = {Han, Jiru and F Gerring, Zachary and Wang, Longfei and\n    Bahlo, Melanie},\n  title = {GeneSetPheno a Web Application for the Integration, Summary,\n    and Visualization of Gene and Variant–Phenotype Associations Across\n    Gene Sets},\n  journal = {Bioinformatics Advances},\n  volume = {5},\n  number = {1},\n  date = {2025-04-17},\n  url = {https://doi.org/10.1093/bioadv/vbaf078},\n  doi = {10.1093/bioadv/vbaf078},\n  langid = {en},\n  abstract = {GeneSetPheno is a user-friendly graphical interface that\n    integrates, summarizes, and visualizes gene and variant-phenotype\n    associations across genomic resources. It allows users to explore\n    interrelationships between genetic variants and phenotypes, offering\n    insights into the genetic factors driving phenotypic variation\n    within user-defined gene sets. GeneSetPheno also supports\n    comparisons across gene sets to identify shared or unique genetic\n    variants, phenotypic associations, biological pathways, and\n    potential gene-gene interactions. GeneSetPheno is a free and highly\n    configurable tool for exploring the complex relationships between\n    gene sets, genetic variants, and phenotypes. Target users include\n    molecular biologists and clinicians who wish to explore a gene or\n    gene set of particular interest.}\n}\nFor attribution, please cite this work as:\nHan, Jiru, Zachary F Gerring, Longfei Wang, and Melanie Bahlo. 2025.\n“GeneSetPheno a Web Application for the Integration, Summary, and\nVisualization of Gene and Variant–Phenotype Associations Across Gene\nSets.” Bioinformatics Advances 5 (1). https://doi.org/10.1093/bioadv/vbaf078."
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/spinalcord/index.html",
+    "href": "projects/spinalcord/index.html",
+    "title": "Genetic architecture of MRI-derived cervical spinal cord morphology reveals sensory-motor axis and systemic disease associations",
     "section": "",
-    "text": "single-cell\n\nrna-seq\n\ninteroperability\n\nsoftware\n\nR\n\nBioconductor\n\n\n\nAnnData interoperability in R\n\n\n\n\n\nNo matching items"
+    "text": "CitationBibTeX citation:@article{sun#2026,\n  author = {Sun\\#, Zhuopin and Han\\#, Jiru and F. Gerring, Zachary and\n    E. Jackson, Victoria and G. Bhalala, Oneil and M. Jarola, Gustavo\n    and H. Harding, Ian and J. R. Rezende, Thiago and Bahlo, Melanie},\n  title = {Genetic Architecture of {MRI-derived} Cervical Spinal Cord\n    Morphology Reveals Sensory-Motor Axis and Systemic Disease\n    Associations},\n  journal = {Nature communications},\n  date = {2026-09-16},\n  url = {https://doi.org/10.1038/s41467-026-77419-x},\n  doi = {10.1038/s41467-026-77419-x},\n  langid = {en},\n  abstract = {The spinal cord is critical to motor, sensory, autonomic\n    function, and increasingly implicated in neurological disease and\n    human health, yet its genetic architecture remains largely\n    unexplored. We perform large-scale phenotyping of the upper cervical\n    spinal cord (C1-C3) structure using brain magnetic resonance imaging\n    from over 80,000 UK Biobank participants, extracting shape metrics\n    including cross-sectional area, diameters, and eccentricity. We\n    identify a total of 179 independent genome-wide significant\n    variants, with cervical spinal cord morphology showing moderate to\n    high SNP-based heritability (0.16 to 0.42). We also uncover\n    sex-specific genetic signals, highlighting potential biological sex\n    differences in spinal cord development. In addition, spinal cord\n    structure is associated with a wide range of neurological,\n    metabolic, and systemic conditions, such as multiple sclerosis,\n    neuropathies, diabetes, and attention-deficit/hyperactivity\n    disorder. These findings establish the cervical spinal cord as a\n    genetically informative and health relevant structure, offering\n    opportunities to study its role in disease mechanisms and human\n    health.}\n}\nFor attribution, please cite this work as:\nSun#, Zhuopin, Jiru Han#, Zachary F. Gerring, et al. 2026.\n“Genetic Architecture of MRI-Derived Cervical Spinal Cord\nMorphology Reveals Sensory-Motor Axis and Systemic Disease\nAssociations.” Nature Communications, accepted,\nSeptember 16. https://doi.org/10.1038/s41467-026-77419-x."
   },
   {
     "objectID": "projects/index.html#analysis-and-data",
@@ -74,7 +74,7 @@
     "href": "projects/index.html#community-and-training",
     "title": "Projects",
     "section": "Community and training",
-    "text": "Community and training\n\n\n\n\nNo matching items"
+    "text": "Community and training"
   },
   {
     "objectID": "index.html",
@@ -89,6 +89,13 @@
     "title": "anndataR",
     "section": "",
     "text": "{anndataR} is a Bioconductor R implementation of the AnnData data structure, used in the Python scverse ecosystem. It provides an R AnnData object with native reading and writing of H5AD files. Users can interact with the AnnData object directly, or use flexible functions to convert to and from SingleCellExperiment or Seurat objects."
+  },
+  {
+    "objectID": "projects/rib/index.html",
+    "href": "projects/rib/index.html",
+    "title": "Identification of novel vertebral development factors through UK Biobank candidate gene search and body imaging analysis",
+    "section": "",
+    "text": "CitationBibTeX citation:@article{sun#2025,\n  author = {Sun\\#, Zhuopin and Han\\#, Jiru and G Fearnley, Liam and\n    McGlinn, Edwina and Bahlo, Melanie},\n  title = {Identification of Novel Vertebral Development Factors Through\n    {UK} {Biobank} Candidate Gene Search and Body Imaging Analysis},\n  journal = {Communications Biology},\n  volume = {8},\n  date = {2025-11-19},\n  url = {https://doi.org/10.1038/s42003-025-09021-8},\n  doi = {10.1038/s42003-025-09021-8},\n  langid = {en},\n  abstract = {Numerical variations and transitional anatomy in the human\n    vertebral column represent a significant yet understudied aspect of\n    skeletal development with potential effects on multiple\n    physiological systems. Utilising UK Biobank data, we integrated\n    genetic analysis with deep learning-based multi-modal body imaging\n    to investigate genetic factors associated with thoracic and lumbar\n    spine anatomy. We identified three key genes, GPC3, NR6A1, and VRTN,\n    associated with numerical variations of the lumbar vertebrae and\n    ribs, with VRTN reported for the first time in humans as influencing\n    vertebral development. Our findings reveal significant associations\n    between these genetic variants, vertebral and rib anomalies, and\n    increased prevalence of chronic pain. This study highlights the\n    genetic underpinnings of vertebral development and demonstrates the\n    utility of combining imaging and genetic data to uncover skeletal\n    variation and its health implications for population health.}\n}\nFor attribution, please cite this work as:\nSun#, Zhuopin, Jiru Han#, Liam G Fearnley, Edwina McGlinn, and Melanie\nBahlo. 2025. “Identification of Novel Vertebral Development\nFactors Through UK Biobank Candidate Gene Search and Body Imaging\nAnalysis.” Communications Biology 8 (November). https://doi.org/10.1038/s42003-025-09021-8."
   },
   {
     "objectID": "publications/index.html",

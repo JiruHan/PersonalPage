@@ -6,10 +6,18 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-06">
-<meta name="description" content="AnnData interoperability in R">
+<meta name="author" content="Zhuopin Sun#">
+<meta name="author" content="Jiru Han#">
+<meta name="author" content="Zachary F. Gerring">
+<meta name="author" content="Victoria E. Jackson">
+<meta name="author" content="Oneil G. Bhalala">
+<meta name="author" content="Gustavo M. Jarola">
+<meta name="author" content="Ian H. Harding">
+<meta name="author" content="Thiago J. R. Rezende">
+<meta name="author" content="Melanie Bahlo">
+<meta name="dcterms.date" content="2026-09-16">
 
-<title>anndataR – Jiru</title>
+<title>Genetic architecture of MRI-derived cervical spinal cord morphology reveals sensory-motor axis and systemic disease associations – Jiru</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -112,12 +120,30 @@ cookieconsent.run({
 </script>
 
 
-<meta property="og:title" content="anndataR – Jiru">
-<meta property="og:description" content="AnnData interoperability in R">
-<meta property="og:image" content="https://JiruHan.com/projects/anndataR/thumbnail.png">
+<meta property="og:title" content="Genetic architecture of MRI-derived cervical spinal cord morphology reveals sensory-motor axis and systemic disease associations – Jiru">
+<meta property="og:description" content="The spinal cord is critical to motor, sensory, autonomic function, and increasingly implicated in neurological disease and human health, yet its genetic architecture remains largely unexplored. We perform large-scale phenotyping of the upper cervical spinal cord (C1-C3) structure using brain magnetic resonance imaging from over 80,000 UK Biobank participants, extracting shape metrics including cross-sectional area, diameters, and eccentricity. We identify a total of 179 independent genome-wide significant variants, with cervical spinal cord morphology showing moderate to high SNP-based heritability (0.16 to 0.42). We also uncover sex-specific genetic signals, highlighting potential biological sex differences in spinal cord development. In addition, spinal cord structure is associated with a wide range of neurological, metabolic, and systemic conditions, such as multiple sclerosis, neuropathies, diabetes, and attention-deficit/hyperactivity disorder. These findings establish the cervical spinal cord as a genetically informative and health relevant structure, offering opportunities to study its role in disease mechanisms and human health.">
 <meta property="og:site_name" content="Jiru">
 <meta property="og:locale" content="en_AU">
-<meta property="og:image:alt" content="anndataR logo">
+<meta name="citation_title" content="Genetic architecture of MRI-derived cervical spinal cord morphology reveals sensory-motor axis and systemic disease associations">
+<meta name="citation_abstract" content="The spinal cord is critical to motor, sensory, autonomic function, and increasingly implicated in neurological disease and human health, yet its genetic architecture remains largely unexplored. We perform large-scale phenotyping of the upper cervical spinal cord (C1-C3) structure using brain magnetic resonance imaging from over 80,000 UK Biobank participants, extracting shape metrics including cross-sectional area, diameters, and eccentricity. We identify a total of 179 independent genome-wide significant variants, with cervical spinal cord morphology showing moderate to high SNP-based heritability (0.16 to 0.42). We also uncover sex-specific genetic signals, highlighting potential biological sex differences in spinal cord development. In addition, spinal cord structure is associated with a wide range of neurological, metabolic, and systemic conditions, such as multiple sclerosis, neuropathies, diabetes, and attention-deficit/hyperactivity disorder. These findings establish the cervical spinal cord as a genetically informative and health relevant structure, offering opportunities to study its role in disease mechanisms and human health.
+">
+<meta name="citation_author" content="Zhuopin Sun#">
+<meta name="citation_author" content="Jiru Han#">
+<meta name="citation_author" content="Zachary F. Gerring">
+<meta name="citation_author" content="Victoria E. Jackson">
+<meta name="citation_author" content="Oneil G. Bhalala">
+<meta name="citation_author" content="Gustavo M. Jarola">
+<meta name="citation_author" content="Ian H. Harding">
+<meta name="citation_author" content="Thiago J. R. Rezende">
+<meta name="citation_author" content="Melanie Bahlo">
+<meta name="citation_publication_date" content="2026-09-16">
+<meta name="citation_cover_date" content="2026-09-16">
+<meta name="citation_year" content="2026">
+<meta name="citation_online_date" content="2026-09-16">
+<meta name="citation_fulltext_html_url" content="https://doi.org/10.1038/s41467-026-77419-x">
+<meta name="citation_doi" content="10.1038/s41467-026-77419-x">
+<meta name="citation_language" content="en">
+<meta name="citation_journal_title" content="Nature communications">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -338,22 +364,14 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">anndataR</h1>
+<h1 class="title">Genetic architecture of MRI-derived cervical spinal cord morphology reveals sensory-motor axis and systemic disease associations</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">single-cell</div>
-    <div class="quarto-category">rna-seq</div>
-    <div class="quarto-category">interoperability</div>
-    <div class="quarto-category">software</div>
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">Bioconductor</div>
+    <div class="quarto-category">Spinal cord</div>
+    <div class="quarto-category">GWAS</div>
+    <div class="quarto-category">Imaging-genetics</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    AnnData interoperability in R
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -362,39 +380,33 @@ cookieconsent.run({
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
               <p>
-                              Robrecht Cannoodt
+                              Zhuopin Sun#
                                       </p>
               <p>
                                 </p><p style="color: #eb008d"><strong>
-                    Luke Zappia
+                    Jiru Han#
                       </strong></p>
                                       <p></p>
               <p>
-                              Martin Morgan
+                              Zachary F. Gerring
                                       </p>
               <p>
-                              Louise Deconinck
+                              Victoria E. Jackson
                                       </p>
               <p>
-                              Danila Bredikhin
+                              Oneil G. Bhalala
                                       </p>
               <p>
-                              Isaac Virshup
+                              Gustavo M. Jarola
                                       </p>
               <p>
-                              Brian Schilder
+                              Ian H. Harding
                                       </p>
               <p>
-                              Chananchida Sang-aram
+                              Thiago J. R. Rezende
                                       </p>
               <p>
-                              Data Intuitive
-                                      </p>
-              <p>
-                              Chan Zuckerberg Initiative
-                                      </p>
-              <p>
-                              scverse consortium
+                              Melanie Bahlo
                                       </p>
           </div>
   </div>
@@ -402,7 +414,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 6, 2025</p>
+      <p class="date">September 16, 2026</p>
     </div>
   </div>
   
@@ -411,17 +423,14 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Links</div>
     <div class="quarto-title-meta-contents">
-                    <a type="button" class="btn btn-outline-primary" href="https://bioconductor.org/packages/anndataR">Package</a>
-                    <a type="button" class="btn btn-outline-primary" href="https://github.com/scverse/anndataR">Code</a>
-                    <a type="button" class="btn btn-outline-primary" href="https://doi.org/10.1101/2025.08.18.669052">DOI</a>
-                                <a type="button" class="btn btn-outline-primary" href="https://anndatar.data-intuitive.com/">Website</a>
-                      </div>
+                                <a type="button" class="btn btn-outline-primary" href="https://doi.org/https://doi.org/10.1038/s41467-026-77419-x">DOI</a>
+                                        </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Citation stats</div>
     <div class="quarto-title-meta-contents">
-      <div class="scite-badge" data-doi="10.1101/2025.08.18.669052" data-layout="vertical" data-show-zero="true" data-small="false" data-show-labels="true" data-tally-show="true">
+      <div class="scite-badge" data-doi="https://doi.org/10.1038/s41467-026-77419-x" data-layout="vertical" data-show-zero="true" data-small="false" data-show-labels="true" data-tally-show="true">
       </div>
     </div>
   </div>
@@ -430,21 +439,61 @@ cookieconsent.run({
   
 </div>
 
-<div class="quarto-title-meta-contents">
-    <img src="thumbnail.png" class="img-fluid" alt="anndataR logo">
-    </div>
 
+<div>
+  <div class="abstract">
+    <div class="abstract-title">Abstract</div>
+    <p>The spinal cord is critical to motor, sensory, autonomic function, and increasingly implicated in neurological disease and human health, yet its genetic architecture remains largely unexplored. We perform large-scale phenotyping of the upper cervical spinal cord (C1-C3) structure using brain magnetic resonance imaging from over 80,000 UK Biobank participants, extracting shape metrics including cross-sectional area, diameters, and eccentricity. We identify a total of 179 independent genome-wide significant variants, with cervical spinal cord morphology showing moderate to high SNP-based heritability (0.16 to 0.42). We also uncover sex-specific genetic signals, highlighting potential biological sex differences in spinal cord development. In addition, spinal cord structure is associated with a wide range of neurological, metabolic, and systemic conditions, such as multiple sclerosis, neuropathies, diabetes, and attention-deficit/hyperactivity disorder. These findings establish the cervical spinal cord as a genetically informative and health relevant structure, offering opportunities to study its role in disease mechanisms and human health.</p>
+  </div>
+</div>
 
 
 
 </header>
 
 
-<p><strong>{anndataR}</strong> is a Bioconductor R implementation of the <a href="https://anndata.readthedocs.io/en/latest/index.html"><code>AnnData</code></a> data structure, used in the Python scverse ecosystem. It provides an R <code>AnnData</code> object with native reading and writing of H5AD files. Users can interact with the <code>AnnData</code> object directly, or use flexible functions to convert to and from <a href="https://bioconductor.org/packages/SingleCellExperiment/"><code>SingleCellExperiment</code></a> or <a href="https://satijalab.org/seurat/"><code>Seurat</code></a> objects.</p>
 
 
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{sun#2026,
+  author = {Sun\#, Zhuopin and Han\#, Jiru and F. Gerring, Zachary and
+    E. Jackson, Victoria and G. Bhalala, Oneil and M. Jarola, Gustavo
+    and H. Harding, Ian and J. R. Rezende, Thiago and Bahlo, Melanie},
+  title = {Genetic Architecture of {MRI-derived} Cervical Spinal Cord
+    Morphology Reveals Sensory-Motor Axis and Systemic Disease
+    Associations},
+  journal = {Nature communications},
+  date = {2026-09-16},
+  url = {https://doi.org/10.1038/s41467-026-77419-x},
+  doi = {10.1038/s41467-026-77419-x},
+  langid = {en},
+  abstract = {The spinal cord is critical to motor, sensory, autonomic
+    function, and increasingly implicated in neurological disease and
+    human health, yet its genetic architecture remains largely
+    unexplored. We perform large-scale phenotyping of the upper cervical
+    spinal cord (C1-C3) structure using brain magnetic resonance imaging
+    from over 80,000 UK Biobank participants, extracting shape metrics
+    including cross-sectional area, diameters, and eccentricity. We
+    identify a total of 179 independent genome-wide significant
+    variants, with cervical spinal cord morphology showing moderate to
+    high SNP-based heritability (0.16 to 0.42). We also uncover
+    sex-specific genetic signals, highlighting potential biological sex
+    differences in spinal cord development. In addition, spinal cord
+    structure is associated with a wide range of neurological,
+    metabolic, and systemic conditions, such as multiple sclerosis,
+    neuropathies, diabetes, and attention-deficit/hyperactivity
+    disorder. These findings establish the cervical spinal cord as a
+    genetically informative and health relevant structure, offering
+    opportunities to study its role in disease mechanisms and human
+    health.}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-sun#2026" class="csl-entry quarto-appendix-citeas" role="listitem">
+Sun#, Zhuopin, Jiru Han#, Zachary F. Gerring, et al. 2026.
+<span>“Genetic Architecture of MRI-Derived Cervical Spinal Cord
+Morphology Reveals Sensory-Motor Axis and Systemic Disease
+Associations.”</span> <em>Nature Communications</em>, accepted,
+September 16. <a href="https://doi.org/10.1038/s41467-026-77419-x">https://doi.org/10.1038/s41467-026-77419-x</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

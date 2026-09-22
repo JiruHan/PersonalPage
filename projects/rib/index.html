@@ -6,10 +6,14 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-06">
-<meta name="description" content="AnnData interoperability in R">
+<meta name="author" content="Zhuopin Sun#">
+<meta name="author" content="Jiru Han#">
+<meta name="author" content="Liam G Fearnley">
+<meta name="author" content="Edwina McGlinn">
+<meta name="author" content="Melanie Bahlo">
+<meta name="dcterms.date" content="2025-11-19">
 
-<title>anndataR – Jiru</title>
+<title>Identification of novel vertebral development factors through UK Biobank candidate gene search and body imaging analysis – Jiru</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -112,12 +116,27 @@ cookieconsent.run({
 </script>
 
 
-<meta property="og:title" content="anndataR – Jiru">
-<meta property="og:description" content="AnnData interoperability in R">
-<meta property="og:image" content="https://JiruHan.com/projects/anndataR/thumbnail.png">
+<meta property="og:title" content="Identification of novel vertebral development factors through UK Biobank candidate gene search and body imaging analysis – Jiru">
+<meta property="og:description" content="Numerical variations and transitional anatomy in the human vertebral column represent a significant yet understudied aspect of skeletal development with potential effects on multiple physiological systems. Utilising UK Biobank data, we integrated genetic analysis with deep learning-based multi-modal body imaging to investigate genetic factors associated with thoracic and lumbar spine anatomy. We identified three key genes, GPC3, NR6A1, and VRTN, associated with numerical variations of the lumbar vertebrae and ribs, with VRTN reported for the first time in humans as influencing vertebral development. Our findings reveal significant associations between these genetic variants, vertebral and rib anomalies, and increased prevalence of chronic pain. This study highlights the genetic underpinnings of vertebral development and demonstrates the utility of combining imaging and genetic data to uncover skeletal variation and its health implications for population health.">
 <meta property="og:site_name" content="Jiru">
 <meta property="og:locale" content="en_AU">
-<meta property="og:image:alt" content="anndataR logo">
+<meta name="citation_title" content="Identification of novel vertebral development factors through UK Biobank candidate gene search and body imaging analysis">
+<meta name="citation_abstract" content="Numerical variations and transitional anatomy in the human vertebral column represent a significant yet understudied aspect of skeletal development with potential effects on multiple physiological systems. Utilising UK Biobank data, we integrated genetic analysis with deep learning-based multi-modal body imaging to investigate genetic factors associated with thoracic and lumbar spine anatomy. We identified three key genes, GPC3, NR6A1, and VRTN, associated with numerical variations of the lumbar vertebrae and ribs, with VRTN reported for the first time in humans as influencing vertebral development. Our findings reveal significant associations between these genetic variants, vertebral and rib anomalies, and increased prevalence of chronic pain. This study highlights the genetic underpinnings of vertebral development and demonstrates the utility of combining imaging and genetic data to uncover skeletal variation and its health implications for population health.
+">
+<meta name="citation_author" content="Zhuopin Sun#">
+<meta name="citation_author" content="Jiru Han#">
+<meta name="citation_author" content="Liam G Fearnley">
+<meta name="citation_author" content="Edwina McGlinn">
+<meta name="citation_author" content="Melanie Bahlo">
+<meta name="citation_publication_date" content="2025-11-19">
+<meta name="citation_cover_date" content="2025-11-19">
+<meta name="citation_year" content="2025">
+<meta name="citation_online_date" content="2025-11-19">
+<meta name="citation_fulltext_html_url" content="https://doi.org/10.1038/s42003-025-09021-8">
+<meta name="citation_doi" content="10.1038/s42003-025-09021-8">
+<meta name="citation_volume" content="8">
+<meta name="citation_language" content="en">
+<meta name="citation_journal_title" content="Communications Biology">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -338,22 +357,13 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">anndataR</h1>
+<h1 class="title">Identification of novel vertebral development factors through UK Biobank candidate gene search and body imaging analysis</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">single-cell</div>
-    <div class="quarto-category">rna-seq</div>
-    <div class="quarto-category">interoperability</div>
-    <div class="quarto-category">software</div>
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">Bioconductor</div>
+    <div class="quarto-category">Imaging-genetics</div>
+    <div class="quarto-category">UK Biobank</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    AnnData interoperability in R
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -362,39 +372,21 @@ cookieconsent.run({
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
               <p>
-                              Robrecht Cannoodt
+                              Zhuopin Sun#
                                       </p>
               <p>
                                 </p><p style="color: #eb008d"><strong>
-                    Luke Zappia
+                    Jiru Han#
                       </strong></p>
                                       <p></p>
               <p>
-                              Martin Morgan
+                              Liam G Fearnley
                                       </p>
               <p>
-                              Louise Deconinck
+                              Edwina McGlinn
                                       </p>
               <p>
-                              Danila Bredikhin
-                                      </p>
-              <p>
-                              Isaac Virshup
-                                      </p>
-              <p>
-                              Brian Schilder
-                                      </p>
-              <p>
-                              Chananchida Sang-aram
-                                      </p>
-              <p>
-                              Data Intuitive
-                                      </p>
-              <p>
-                              Chan Zuckerberg Initiative
-                                      </p>
-              <p>
-                              scverse consortium
+                              Melanie Bahlo
                                       </p>
           </div>
   </div>
@@ -402,7 +394,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 6, 2025</p>
+      <p class="date">November 19, 2025</p>
     </div>
   </div>
   
@@ -411,17 +403,14 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Links</div>
     <div class="quarto-title-meta-contents">
-                    <a type="button" class="btn btn-outline-primary" href="https://bioconductor.org/packages/anndataR">Package</a>
-                    <a type="button" class="btn btn-outline-primary" href="https://github.com/scverse/anndataR">Code</a>
-                    <a type="button" class="btn btn-outline-primary" href="https://doi.org/10.1101/2025.08.18.669052">DOI</a>
-                                <a type="button" class="btn btn-outline-primary" href="https://anndatar.data-intuitive.com/">Website</a>
-                      </div>
+                                <a type="button" class="btn btn-outline-primary" href="https://doi.org/https://doi.org/10.1038/s42003-025-09021-8">DOI</a>
+                                        </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Citation stats</div>
     <div class="quarto-title-meta-contents">
-      <div class="scite-badge" data-doi="10.1101/2025.08.18.669052" data-layout="vertical" data-show-zero="true" data-small="false" data-show-labels="true" data-tally-show="true">
+      <div class="scite-badge" data-doi="https://doi.org/10.1038/s42003-025-09021-8" data-layout="vertical" data-show-zero="true" data-small="false" data-show-labels="true" data-tally-show="true">
       </div>
     </div>
   </div>
@@ -430,21 +419,55 @@ cookieconsent.run({
   
 </div>
 
-<div class="quarto-title-meta-contents">
-    <img src="thumbnail.png" class="img-fluid" alt="anndataR logo">
-    </div>
 
+<div>
+  <div class="abstract">
+    <div class="abstract-title">Abstract</div>
+    <p>Numerical variations and transitional anatomy in the human vertebral column represent a significant yet understudied aspect of skeletal development with potential effects on multiple physiological systems. Utilising UK Biobank data, we integrated genetic analysis with deep learning-based multi-modal body imaging to investigate genetic factors associated with thoracic and lumbar spine anatomy. We identified three key genes, GPC3, NR6A1, and VRTN, associated with numerical variations of the lumbar vertebrae and ribs, with VRTN reported for the first time in humans as influencing vertebral development. Our findings reveal significant associations between these genetic variants, vertebral and rib anomalies, and increased prevalence of chronic pain. This study highlights the genetic underpinnings of vertebral development and demonstrates the utility of combining imaging and genetic data to uncover skeletal variation and its health implications for population health.</p>
+  </div>
+</div>
 
 
 
 </header>
 
 
-<p><strong>{anndataR}</strong> is a Bioconductor R implementation of the <a href="https://anndata.readthedocs.io/en/latest/index.html"><code>AnnData</code></a> data structure, used in the Python scverse ecosystem. It provides an R <code>AnnData</code> object with native reading and writing of H5AD files. Users can interact with the <code>AnnData</code> object directly, or use flexible functions to convert to and from <a href="https://bioconductor.org/packages/SingleCellExperiment/"><code>SingleCellExperiment</code></a> or <a href="https://satijalab.org/seurat/"><code>Seurat</code></a> objects.</p>
 
 
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{sun#2025,
+  author = {Sun\#, Zhuopin and Han\#, Jiru and G Fearnley, Liam and
+    McGlinn, Edwina and Bahlo, Melanie},
+  title = {Identification of Novel Vertebral Development Factors Through
+    {UK} {Biobank} Candidate Gene Search and Body Imaging Analysis},
+  journal = {Communications Biology},
+  volume = {8},
+  date = {2025-11-19},
+  url = {https://doi.org/10.1038/s42003-025-09021-8},
+  doi = {10.1038/s42003-025-09021-8},
+  langid = {en},
+  abstract = {Numerical variations and transitional anatomy in the human
+    vertebral column represent a significant yet understudied aspect of
+    skeletal development with potential effects on multiple
+    physiological systems. Utilising UK Biobank data, we integrated
+    genetic analysis with deep learning-based multi-modal body imaging
+    to investigate genetic factors associated with thoracic and lumbar
+    spine anatomy. We identified three key genes, GPC3, NR6A1, and VRTN,
+    associated with numerical variations of the lumbar vertebrae and
+    ribs, with VRTN reported for the first time in humans as influencing
+    vertebral development. Our findings reveal significant associations
+    between these genetic variants, vertebral and rib anomalies, and
+    increased prevalence of chronic pain. This study highlights the
+    genetic underpinnings of vertebral development and demonstrates the
+    utility of combining imaging and genetic data to uncover skeletal
+    variation and its health implications for population health.}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-sun#2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Sun#, Zhuopin, Jiru Han#, Liam G Fearnley, Edwina McGlinn, and Melanie
+Bahlo. 2025. <span>“Identification of Novel Vertebral Development
+Factors Through UK Biobank Candidate Gene Search and Body Imaging
+Analysis.”</span> <em>Communications Biology</em> 8 (November). <a href="https://doi.org/10.1038/s42003-025-09021-8">https://doi.org/10.1038/s42003-025-09021-8</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
