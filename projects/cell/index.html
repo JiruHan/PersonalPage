@@ -6,10 +6,56 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-06">
-<meta name="description" content="AnnData interoperability in R">
+<meta name="author" content="Ngee Kiat Chua">
+<meta name="author" content="Tania J González-Robles">
+<meta name="author" content="Cameron J Reddington">
+<meta name="author" content="Jane Dudley-Fraser">
+<meta name="author" content="Richard W Birkinshaw">
+<meta name="author" content="Jiru Han">
+<meta name="author" content="Ashleigh Solano">
+<meta name="author" content="Soon Wei Wong">
+<meta name="author" content="Tomasz Kochańczyk">
+<meta name="author" content="Joshua J Peter">
+<meta name="author" content="Mark A Nakasone">
+<meta name="author" content="Florian Aust">
+<meta name="author" content="Jacob Munro">
+<meta name="author" content="Yeh Huei Tong">
+<meta name="author" content="Julie Iskander">
+<meta name="author" content="Waruni Abeysekera">
+<meta name="author" content="Alex Garnham">
+<meta name="author" content="Hannah Huckstep">
+<meta name="author" content="Matthew E Ritchie">
+<meta name="author" content="Ingrid Wertz">
+<meta name="author" content="Sarah Hymowitz">
+<meta name="author" content="Sharad Kumar">
+<meta name="author" content="Ron C Conaway">
+<meta name="author" content="Gilbert G Privé">
+<meta name="author" content="Alex N Bullock">
+<meta name="author" content="Jeffrey J Babon">
+<meta name="author" content="Rachel E Klevit">
+<meta name="author" content="Sonja Lorenz">
+<meta name="author" content="Alessio Ciulli">
+<meta name="author" content="Eric S Fischer">
+<meta name="author" content="Nicolas H Thomä">
+<meta name="author" content="Radosław P Nowak">
+<meta name="author" content="Brenda A Schulman">
+<meta name="author" content="Michael Rapé">
+<meta name="author" content="Katrin Rittinger">
+<meta name="author" content="Julia K Pagan">
+<meta name="author" content="Melanie Bahlo">
+<meta name="author" content="Joel P Mackay">
+<meta name="author" content="Peter D Mace">
+<meta name="author" content="Christopher D Lima">
+<meta name="author" content="Ronald T Hay">
+<meta name="author" content="David Komander">
+<meta name="author" content="Bernhard C Lechtenberg">
+<meta name="author" content="Claudio A P Joazeiro">
+<meta name="author" content="Michele Pagano">
+<meta name="author" content="Kay Hofmann">
+<meta name="author" content="Rebecca Feltham">
+<meta name="dcterms.date" content="2026-04-02">
 
-<title>anndataR – Jiru</title>
+<title>The E3-ome gene-centric compendium reveals the human E3 ligase landscape – Jiru</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -51,9 +97,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ebdf89c3206ed1269a7c4c4a3731a565.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-9648749e185b33e1ebbc9496ddc91535.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-ebdf89c3206ed1269a7c4c4a3731a565.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-33d1a8adacac2f5666660552884da730.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-36e8b4182258cc534afa28c7096c2e50.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-33d1a8adacac2f5666660552884da730.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,14 +158,73 @@ cookieconsent.run({
 </script>
 
 
-<meta property="og:title" content="anndataR – Jiru">
-<meta property="og:description" content="AnnData interoperability in R">
-<meta property="og:image" content="https://JiruHan.com/projects/anndataR/thumbnail.png">
+<meta property="og:title" content="The E3-ome gene-centric compendium reveals the human E3 ligase landscape – Jiru">
+<meta property="og:description" content="To define and systematically characterize the human E3 ubiquitin ligase (E3) landscape, we generated the E3-ome, a compendium of E3s encoded by the human genome. The E3-ome integrates experimental data, bioinformatics, and published research, revealing 672 high-confidence E3s. We standardized E3 classifications to create a unified framework for annotation and comparative analysis. The E3-ome identified several previously unrecognized domains, motifs, E3 candidates, and relationships, expanding the diversity of E3s. Furthermore, the E3-ome mapped the spatial and physiological organization of E3s across human tissues and cell types, revealing context-dependent E3s. Genetic analyses identified disease-associated variants across the E3-ome, linking E3s to diverse human pathologies. Together, these analyses define the human E3 landscape at high resolution and deliver a foundational resource to drive mechanistic and therapeutic discovery.">
+<meta property="og:image" content="https://JiruHan.com/projects/cell/E3.png">
 <meta property="og:site_name" content="Jiru">
 <meta property="og:locale" content="en_AU">
-<meta property="og:image:height" content="277">
-<meta property="og:image:width" content="240">
-<meta property="og:image:alt" content="anndataR logo">
+<meta property="og:image:height" content="1254">
+<meta property="og:image:width" content="1254">
+<meta name="citation_title" content="The E3-ome gene-centric compendium reveals the human E3 ligase landscape">
+<meta name="citation_abstract" content="To define and systematically characterize the human E3 ubiquitin ligase (E3) landscape, we generated the E3-ome, a compendium of E3s encoded by the human genome. The E3-ome integrates experimental data, bioinformatics, and published research, revealing 672 high-confidence E3s. We standardized E3 classifications to create a unified framework for annotation and comparative analysis. The E3-ome identified several previously unrecognized domains, motifs, E3 candidates, and relationships, expanding the diversity of E3s. Furthermore, the E3-ome mapped the spatial and physiological organization of E3s across human tissues and cell types, revealing context-dependent E3s. Genetic analyses identified disease-associated variants across the E3-ome, linking E3s to diverse human pathologies. Together, these analyses define the human E3 landscape at high resolution and deliver a foundational resource to drive mechanistic and therapeutic discovery.
+">
+<meta name="citation_author" content="Ngee Kiat Chua">
+<meta name="citation_author" content="Tania J González-Robles">
+<meta name="citation_author" content="Cameron J Reddington">
+<meta name="citation_author" content="Jane Dudley-Fraser">
+<meta name="citation_author" content="Richard W Birkinshaw">
+<meta name="citation_author" content="Jiru Han">
+<meta name="citation_author" content="Ashleigh Solano">
+<meta name="citation_author" content="Soon Wei Wong">
+<meta name="citation_author" content="Tomasz Kochańczyk">
+<meta name="citation_author" content="Joshua J Peter">
+<meta name="citation_author" content="Mark A Nakasone">
+<meta name="citation_author" content="Florian Aust">
+<meta name="citation_author" content="Jacob Munro">
+<meta name="citation_author" content="Yeh Huei Tong">
+<meta name="citation_author" content="Julie Iskander">
+<meta name="citation_author" content="Waruni Abeysekera">
+<meta name="citation_author" content="Alex Garnham">
+<meta name="citation_author" content="Hannah Huckstep">
+<meta name="citation_author" content="Matthew E Ritchie">
+<meta name="citation_author" content="Ingrid Wertz">
+<meta name="citation_author" content="Sarah Hymowitz">
+<meta name="citation_author" content="Sharad Kumar">
+<meta name="citation_author" content="Ron C Conaway">
+<meta name="citation_author" content="Gilbert G Privé">
+<meta name="citation_author" content="Alex N Bullock">
+<meta name="citation_author" content="Jeffrey J Babon">
+<meta name="citation_author" content="Rachel E Klevit">
+<meta name="citation_author" content="Sonja Lorenz">
+<meta name="citation_author" content="Alessio Ciulli">
+<meta name="citation_author" content="Eric S Fischer">
+<meta name="citation_author" content="Nicolas H Thomä">
+<meta name="citation_author" content="Radosław P Nowak">
+<meta name="citation_author" content="Brenda A Schulman">
+<meta name="citation_author" content="Michael Rapé">
+<meta name="citation_author" content="Katrin Rittinger">
+<meta name="citation_author" content="Julia K Pagan">
+<meta name="citation_author" content="Melanie Bahlo">
+<meta name="citation_author" content="Joel P Mackay">
+<meta name="citation_author" content="Peter D Mace">
+<meta name="citation_author" content="Christopher D Lima">
+<meta name="citation_author" content="Ronald T Hay">
+<meta name="citation_author" content="David Komander">
+<meta name="citation_author" content="Bernhard C Lechtenberg">
+<meta name="citation_author" content="Claudio A P Joazeiro">
+<meta name="citation_author" content="Michele Pagano">
+<meta name="citation_author" content="Kay Hofmann">
+<meta name="citation_author" content="Rebecca Feltham">
+<meta name="citation_publication_date" content="2026-04-02">
+<meta name="citation_cover_date" content="2026-04-02">
+<meta name="citation_year" content="2026">
+<meta name="citation_online_date" content="2026-04-02">
+<meta name="citation_fulltext_html_url" content="https://doi.org/10.1016/j.cell.2026.01.029">
+<meta name="citation_issue" content="7">
+<meta name="citation_doi" content="10.1016/j.cell.2026.01.029">
+<meta name="citation_volume" content="189">
+<meta name="citation_language" content="en">
+<meta name="citation_journal_title" content="Cell">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -302,16 +407,8 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../posts/index.html"> 
-<span class="menu-text">Posts</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../talks/index.html"> 
-<span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../publications/index.html"> 
@@ -348,22 +445,14 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">anndataR</h1>
+<h1 class="title">The E3-ome gene-centric compendium reveals the human E3 ligase landscape</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">single-cell</div>
-    <div class="quarto-category">rna-seq</div>
-    <div class="quarto-category">interoperability</div>
-    <div class="quarto-category">software</div>
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">Bioconductor</div>
+    <div class="quarto-category">E3 ubiquitin ligase</div>
+    <div class="quarto-category">Biobank</div>
+    <div class="quarto-category">Gene/variant-phenotype associations</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    AnnData interoperability in R
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -372,39 +461,147 @@ cookieconsent.run({
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
               <p>
-                              Robrecht Cannoodt
+                              Ngee Kiat Chua
+                                      </p>
+              <p>
+                              Tania J González-Robles
+                                      </p>
+              <p>
+                              Cameron J Reddington
+                                      </p>
+              <p>
+                              Jane Dudley-Fraser
+                                      </p>
+              <p>
+                              Richard W Birkinshaw
                                       </p>
               <p>
                                 </p><p style="color: #eb008d"><strong>
-                    Luke Zappia
+                    Jiru Han
                       </strong></p>
                                       <p></p>
               <p>
-                              Martin Morgan
+                              Ashleigh Solano
                                       </p>
               <p>
-                              Louise Deconinck
+                              Soon Wei Wong
                                       </p>
               <p>
-                              Danila Bredikhin
+                              Tomasz Kochańczyk
                                       </p>
               <p>
-                              Isaac Virshup
+                              Joshua J Peter
                                       </p>
               <p>
-                              Brian Schilder
+                              Mark A Nakasone
                                       </p>
               <p>
-                              Chananchida Sang-aram
+                              Florian Aust
                                       </p>
               <p>
-                              Data Intuitive
+                              Jacob Munro
                                       </p>
               <p>
-                              Chan Zuckerberg Initiative
+                              Yeh Huei Tong
                                       </p>
               <p>
-                              scverse consortium
+                              Julie Iskander
+                                      </p>
+              <p>
+                              Waruni Abeysekera
+                                      </p>
+              <p>
+                              Alex Garnham
+                                      </p>
+              <p>
+                              Hannah Huckstep
+                                      </p>
+              <p>
+                              Matthew E Ritchie
+                                      </p>
+              <p>
+                              Ingrid Wertz
+                                      </p>
+              <p>
+                              Sarah Hymowitz
+                                      </p>
+              <p>
+                              Sharad Kumar
+                                      </p>
+              <p>
+                              Ron C Conaway
+                                      </p>
+              <p>
+                              Gilbert G Privé
+                                      </p>
+              <p>
+                              Alex N Bullock
+                                      </p>
+              <p>
+                              Jeffrey J Babon
+                                      </p>
+              <p>
+                              Rachel E Klevit
+                                      </p>
+              <p>
+                              Sonja Lorenz
+                                      </p>
+              <p>
+                              Alessio Ciulli
+                                      </p>
+              <p>
+                              Eric S Fischer
+                                      </p>
+              <p>
+                              Nicolas H Thomä
+                                      </p>
+              <p>
+                              Radosław P Nowak
+                                      </p>
+              <p>
+                              Brenda A Schulman
+                                      </p>
+              <p>
+                              Michael Rapé
+                                      </p>
+              <p>
+                              Katrin Rittinger
+                                      </p>
+              <p>
+                              Julia K Pagan
+                                      </p>
+              <p>
+                              Melanie Bahlo
+                                      </p>
+              <p>
+                              Joel P Mackay
+                                      </p>
+              <p>
+                              Peter D Mace
+                                      </p>
+              <p>
+                              Christopher D Lima
+                                      </p>
+              <p>
+                              Ronald T Hay
+                                      </p>
+              <p>
+                              David Komander
+                                      </p>
+              <p>
+                              Bernhard C Lechtenberg
+                                      </p>
+              <p>
+                              Claudio A P Joazeiro
+                                      </p>
+              <p>
+                              Michele Pagano
+                                      </p>
+              <p>
+                              Kay Hofmann
+                                      </p>
+              <p>
+                              Rebecca Feltham
                                       </p>
           </div>
   </div>
@@ -412,7 +609,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 6, 2025</p>
+      <p class="date">April 2, 2026</p>
     </div>
   </div>
   
@@ -421,17 +618,14 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Links</div>
     <div class="quarto-title-meta-contents">
-                    <a type="button" class="btn btn-outline-primary" href="https://bioconductor.org/packages/anndataR">Package</a>
-                    <a type="button" class="btn btn-outline-primary" href="https://github.com/scverse/anndataR">Code</a>
-                    <a type="button" class="btn btn-outline-primary" href="https://doi.org/10.1101/2025.08.18.669052">DOI</a>
-                                <a type="button" class="btn btn-outline-primary" href="https://anndatar.data-intuitive.com/">Website</a>
-                      </div>
+                                <a type="button" class="btn btn-outline-primary" href="https://doi.org/https://doi.org/10.1016/j.cell.2026.01.029">DOI</a>
+                                        </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Citation stats</div>
     <div class="quarto-title-meta-contents">
-      <div class="scite-badge" data-doi="10.1101/2025.08.18.669052" data-layout="vertical" data-show-zero="true" data-small="false" data-show-labels="true" data-tally-show="true">
+      <div class="scite-badge" data-doi="https://doi.org/10.1016/j.cell.2026.01.029" data-layout="vertical" data-show-zero="true" data-small="false" data-show-labels="true" data-tally-show="true">
       </div>
     </div>
   </div>
@@ -441,20 +635,71 @@ cookieconsent.run({
 </div>
 
 <div class="quarto-title-meta-contents">
-    <img src="thumbnail.png" class="img-fluid" alt="anndataR logo">
+    <img src="E3.png" class="img-fluid" alt="">
     </div>
 
+<div>
+  <div class="abstract">
+    <div class="abstract-title">Abstract</div>
+    <p>To define and systematically characterize the human E3 ubiquitin ligase (E3) landscape, we generated the E3-ome, a compendium of E3s encoded by the human genome. The E3-ome integrates experimental data, bioinformatics, and published research, revealing 672 high-confidence E3s. We standardized E3 classifications to create a unified framework for annotation and comparative analysis. The E3-ome identified several previously unrecognized domains, motifs, E3 candidates, and relationships, expanding the diversity of E3s. Furthermore, the E3-ome mapped the spatial and physiological organization of E3s across human tissues and cell types, revealing context-dependent E3s. Genetic analyses identified disease-associated variants across the E3-ome, linking E3s to diverse human pathologies. Together, these analyses define the human E3 landscape at high resolution and deliver a foundational resource to drive mechanistic and therapeutic discovery.</p>
+  </div>
+</div>
 
 
 
 </header>
 
 
-<p><strong>{anndataR}</strong> is a Bioconductor R implementation of the <a href="https://anndata.readthedocs.io/en/latest/index.html"><code>AnnData</code></a> data structure, used in the Python scverse ecosystem. It provides an R <code>AnnData</code> object with native reading and writing of H5AD files. Users can interact with the <code>AnnData</code> object directly, or use flexible functions to convert to and from <a href="https://bioconductor.org/packages/SingleCellExperiment/"><code>SingleCellExperiment</code></a> or <a href="https://satijalab.org/seurat/"><code>Seurat</code></a> objects.</p>
 
 
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{kiat_chua2026,
+  author = {Kiat Chua, Ngee and J González-Robles, Tania and J
+    Reddington, Cameron and Dudley-Fraser, Jane and W Birkinshaw,
+    Richard and Han, Jiru and Solano, Ashleigh and Wei Wong, Soon and
+    Kochańczyk, Tomasz and J Peter, Joshua and A Nakasone, Mark and
+    Aust, Florian and Munro, Jacob and Huei Tong, Yeh and Iskander,
+    Julie and Abeysekera, Waruni and Garnham, Alex and Huckstep, Hannah
+    and E Ritchie, Matthew and Wertz, Ingrid and Hymowitz, Sarah and
+    Kumar, Sharad and C Conaway, Ron and G Privé, Gilbert and N Bullock,
+    Alex and J Babon, Jeffrey and E Klevit, Rachel and Lorenz, Sonja and
+    Ciulli, Alessio and S Fischer, Eric and H Thomä, Nicolas and P
+    Nowak, Radosław and A Schulman, Brenda and Rapé, Michael and
+    Rittinger, Katrin and K Pagan, Julia and Bahlo, Melanie and P
+    Mackay, Joel and D Mace, Peter and D Lima, Christopher and T Hay,
+    Ronald and Komander, David and C Lechtenberg, Bernhard and A P
+    Joazeiro, Claudio and Pagano, Michele and Hofmann, Kay and Feltham,
+    Rebecca},
+  title = {The {E3-ome} Gene-Centric Compendium Reveals the Human {E3}
+    Ligase Landscape},
+  journal = {Cell},
+  volume = {189},
+  number = {7},
+  date = {2026-04-02},
+  url = {https://doi.org/10.1016/j.cell.2026.01.029},
+  doi = {10.1016/j.cell.2026.01.029},
+  langid = {en},
+  abstract = {To define and systematically characterize the human E3
+    ubiquitin ligase (E3) landscape, we generated the E3-ome, a
+    compendium of E3s encoded by the human genome. The E3-ome integrates
+    experimental data, bioinformatics, and published research, revealing
+    672 high-confidence E3s. We standardized E3 classifications to
+    create a unified framework for annotation and comparative analysis.
+    The E3-ome identified several previously unrecognized domains,
+    motifs, E3 candidates, and relationships, expanding the diversity of
+    E3s. Furthermore, the E3-ome mapped the spatial and physiological
+    organization of E3s across human tissues and cell types, revealing
+    context-dependent E3s. Genetic analyses identified
+    disease-associated variants across the E3-ome, linking E3s to
+    diverse human pathologies. Together, these analyses define the human
+    E3 landscape at high resolution and deliver a foundational resource
+    to drive mechanistic and therapeutic discovery.}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-kiat_chua2026" class="csl-entry quarto-appendix-citeas" role="listitem">
+Kiat Chua, Ngee, Tania J González-Robles, Cameron J Reddington, et al.
+2026. <span>“The E3-Ome Gene-Centric Compendium Reveals the Human E3
+Ligase Landscape.”</span> <em>Cell</em> 189 (7). <a href="https://doi.org/10.1016/j.cell.2026.01.029">https://doi.org/10.1016/j.cell.2026.01.029</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -874,7 +1119,7 @@ cookieconsent.run({
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © 2017-2026, Jiru Han
+ © 2022-2026, Jiru Han
   </li>  
 </ul>
     </div>   

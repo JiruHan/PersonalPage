@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-biobank .list');
+    const listingTargetEl = window.document.querySelector('#listing-ai .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-biobank'] = new List('listing-biobank', options);
+    window['quarto-listings']['listing-ai'] = new List('listing-ai', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-try .list');
+    const listingTargetEl = window.document.querySelector('#listing-genetics .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -121,11 +121,11 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-try'] = new List('listing-try', options);
+    window['quarto-listings']['listing-genetics'] = new List('listing-genetics', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -524,7 +524,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R1dBUw==">GWAS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW1hZ2luZy1nZW5ldGljcw==">Imaging-genetics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3BpbmFsJTIwY29yZA==">Spinal cord <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VUslMjBCaW9iYW5r">UK Biobank <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QWdlLXJlbGF0ZWQlMjBtYWN1bGFyJTIwZGVnZW5lcmF0aW9u">Age-related macular degeneration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmlvYmFuaw==">Biobank <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RTMlMjB1YmlxdWl0aW4lMjBsaWdhc2U=">E3 ubiquitin ligase <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZSUyRnZhcmlhbnQtcGhlbm90eXBlJTIwYXNzb2NpYXRpb25z">Gene/variant-phenotype associations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R1dBUw==">GWAS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SGFlbW9nbG9iaW4lMjB0aHJlc2hvbGRz">Haemoglobin thresholds <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW1hZ2luZy1nZW5ldGljcw==">Imaging-genetics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGxhc21vZGl1bQ==">Plasmodium <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9wdWxhdGlvbiUyMEdlbmV0aWNz">Population Genetics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2hvcnQlMjBUYW5kZW0lMjBSZXBlYXRz">Short Tandem Repeats <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3BpbmFsJTIwY29yZA==">Spinal cord <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VUslMjBCaW9iYW5r">UK Biobank <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V0hP">WHO <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -533,18 +533,18 @@ window.Quarto = {
 
 
 
-<section id="large-scale-biobank-imaging-genetics" class="level1">
-<h1>Large-scale Biobank Imaging-Genetics</h1>
-<div id="listing-biobank" class="quarto-listing quarto-listing-container-grid">
+<section id="ai-image-omics-for-genetic-discovery" class="level1">
+<h1>AI Image-Omics for Genetic Discovery</h1>
+<div id="listing-ai" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="U3BpbmFsJTIwY29yZCUyQ0dXQVMlMkNJbWFnaW5nLWdlbmV0aWNz" data-listing-date-sort="1789516800000" data-listing-file-modified-sort="1790089602704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-categories="U3BpbmFsJTIwY29yZCUyQ0dXQVMlMkNJbWFnaW5nLWdlbmV0aWNz" data-listing-date-sort="1789516800000" data-listing-file-modified-sort="1790107107724" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../projects/spinalcord/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../projects/spinalcord/spinalcordGWAS.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="large-scale-biobank-imaging-genetics">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="ai-image-omics-for-genetic-discovery">
 Genetic architecture of MRI-derived cervical spinal cord morphology reveals sensory-motor axis and systemic disease associations
 </h5>
 <div class="listing-categories">
@@ -562,7 +562,7 @@ Genetic architecture of MRI-derived cervical spinal cord morphology reveals sens
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="SW1hZ2luZy1nZW5ldGljcyUyQ1VLJTIwQmlvYmFuaw==" data-listing-date-sort="1763510400000" data-listing-file-modified-sort="1790089602704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="1" data-categories="SW1hZ2luZy1nZW5ldGljcyUyQ1VLJTIwQmlvYmFuaw==" data-listing-date-sort="1763510400000" data-listing-file-modified-sort="1790107107722" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../projects/rib/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -589,10 +589,110 @@ Identification of novel vertebral development factors through UK Biobank candida
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="packages" class="level1">
-<h1>Packages</h1>
-<div id="packages">
+<section id="statistical-genetics-population-genomics-translational-research" class="level1">
+<h1>Statistical Genetics, Population Genomics &amp; Translational Research</h1>
+<div id="listing-genetics" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="SGFlbW9nbG9iaW4lMjB0aHJlc2hvbGRzJTJDV0hPJTJDUG9wdWxhdGlvbiUyMEdlbmV0aWNz" data-listing-date-sort="1709164800000" data-listing-file-modified-sort="1790107107722" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../projects/haemoglobin/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/haemoglobin/haemoglobin.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="statistical-genetics-population-genomics-translational-research">
+Haemoglobin thresholds to define anaemia from age 6 months to 65 years estimates from international data sources
+</h5>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('SGFlbW9nbG9iaW4lMjB0aHJlc2hvbGRz'); return false;">Haemoglobin thresholds</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V0hP'); return false;">WHO</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG9wdWxhdGlvbiUyMEdlbmV0aWNz'); return false;">Population Genetics</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Detection of anaemia is crucial for clinical medicine and public health. Current WHO anaemia definitions are based on statistical thresholds (fifth centiles) set more than…</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RTMlMjB1YmlxdWl0aW4lMjBsaWdhc2UlMkNCaW9iYW5rJTJDR2VuZSUyRnZhcmlhbnQtcGhlbm90eXBlJTIwYXNzb2NpYXRpb25z" data-listing-date-sort="1775088000000" data-listing-file-modified-sort="1790107107720" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../projects/cell/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/cell/E3.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The E3-ome gene-centric compendium reveals the human E3 ligase landscape
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RTMlMjB1YmlxdWl0aW4lMjBsaWdhc2U='); return false;">E3 ubiquitin ligase</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmlvYmFuaw=='); return false;">Biobank</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZSUyRnZhcmlhbnQtcGhlbm90eXBlJTIwYXNzb2NpYXRpb25z'); return false;">Gene/variant-phenotype associations</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>To define and systematically characterize the human E3 ubiquitin ligase (E3) landscape, we generated the E3-ome, a compendium of E3s encoded by the human genome. The E3-ome…</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UGxhc21vZGl1bSUyQ1Nob3J0JTIwVGFuZGVtJTIwUmVwZWF0cyUyQ1BvcHVsYXRpb24lMjBHZW5ldGljcw==" data-listing-date-sort="1641772800000" data-listing-file-modified-sort="1790107107725" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../projects/str/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/str/str.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Population-level genome-wide STR discovery and validation for population structure and genetic diversity assessment of Plasmodium species
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGxhc21vZGl1bQ=='); return false;">Plasmodium</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2hvcnQlMjBUYW5kZW0lMjBSZXBlYXRz'); return false;">Short Tandem Repeats</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG9wdWxhdGlvbiUyMEdlbmV0aWNz'); return false;">Population Genetics</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Short tandem repeats (STRs) are highly informative genetic markers that have been used extensively in population genetics analysis. They are an important source of genetic…</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="QWdlLXJlbGF0ZWQlMjBtYWN1bGFyJTIwZGVnZW5lcmF0aW9uJTJDR1dBUw==" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1790107107719" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../projects/amd/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/amd/amd.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+HTRA1/lncRNA HTRA1-AS1 dominates in age-related macular degeneration reticular pseudodrusen genetic risk with no complement involvement
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QWdlLXJlbGF0ZWQlMjBtYWN1bGFyJTIwZGVnZW5lcmF0aW9u'); return false;">Age-related macular degeneration</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1dBUw=='); return false;">GWAS</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Age-related macular degeneration (AMD) is a multifactorial retinal disease with a large genetic risk contribution. Reticular pseudodrusen (RPD) is a sub-phenotype of AMD…</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
 <section id="scripts" class="level1">
@@ -629,12 +729,7 @@ Identification of novel vertebral development factors through UK Biobank candida
 </section>
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-try">
-<div class="list grid quarto-listing-cols-3">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><div class="quarto-listing quarto-listing-container-grid" id="listing-Software Development &amp; Interactive Research Platforms">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-Software Development &amp; Interactive Research Platforms">
 <div class="list grid quarto-listing-cols-3">
 
 </div>

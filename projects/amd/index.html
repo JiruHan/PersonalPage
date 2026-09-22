@@ -6,10 +6,61 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-06">
-<meta name="description" content="AnnData interoperability in R">
+<meta name="author" content="Samaneh Farashi">
+<meta name="author" content="Carla J. Abbott">
+<meta name="author" content="Brendan R. E. Ansell">
+<meta name="author" content="Zhichao Wu">
+<meta name="author" content="Lebriz Altay">
+<meta name="author" content="Ella Arnon">
+<meta name="author" content="Louis Arnould">
+<meta name="author" content="Yelena Bagdasarova">
+<meta name="author" content="Konstantinos Balaskas">
+<meta name="author" content="Fred K. Chen">
+<meta name="author" content="Emily Chew">
+<meta name="author" content="Itay Chowers">
+<meta name="author" content="Steven Clarke">
+<meta name="author" content="Catherine Cukras">
+<meta name="author" content="Cécile Delcourt">
+<meta name="author" content="Marie-Noëlle Delyfer">
+<meta name="author" content="Anneke I. den Hollander">
+<meta name="author" content="Sascha Fauser">
+<meta name="author" content="Robert P. Finger">
+<meta name="author" content="Pierre-Henry Gabrielle">
+<meta name="author" content="Jiru Han">
+<meta name="author" content="Lauren A. B. Hodgson">
+<meta name="author" content="Ruth Hogg">
+<meta name="author" content="Frank G. Holz">
+<meta name="author" content="Carel Hoyng">
+<meta name="author" content="Himeesh Kumar">
+<meta name="author" content="Eleonora M. Lad">
+<meta name="author" content="Aaron Lee">
+<meta name="author" content="Ulrich F. O. Luhmann">
+<meta name="author" content="Matthias M. Mauschitz">
+<meta name="author" content="Amy J. McKnight">
+<meta name="author" content="Samuel McLenachan">
+<meta name="author" content="Aniket Mishra">
+<meta name="author" content="Ismail Moghul">
+<meta name="author" content="Luz D. Orozco">
+<meta name="author" content="Danuta M. Sampson">
+<meta name="author" content="Liam W. Scott">
+<meta name="author" content="Vasilena Sitnilska">
+<meta name="author" content="Scott Song">
+<meta name="author" content="Amy Stockwell">
+<meta name="author" content="Anand Swaroop">
+<meta name="author" content="Jan H. Terheyden">
+<meta name="author" content="Liran Tiosano">
+<meta name="author" content="Adnan Tufail">
+<meta name="author" content="Brian L. Yaspan">
+<meta name="author" content="MACUSTAR consortium">
+<meta name="author" content="NICOLA consortium">
+<meta name="author" content="Alice Pébay">
+<meta name="author" content="Erica L. Fletcher">
+<meta name="author" content="Robyn H. Guymer">
+<meta name="author" content="Melanie Bahlo">
+<meta name="author" content="On behalf of the Reticular Pseudodrusen Consortium">
+<meta name="dcterms.date" content="2025-12-08">
 
-<title>anndataR – Jiru</title>
+<title>HTRA1/lncRNA HTRA1-AS1 dominates in age-related macular degeneration reticular pseudodrusen genetic risk with no complement involvement – Jiru</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -51,9 +102,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ebdf89c3206ed1269a7c4c4a3731a565.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-9648749e185b33e1ebbc9496ddc91535.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-ebdf89c3206ed1269a7c4c4a3731a565.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-33d1a8adacac2f5666660552884da730.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-36e8b4182258cc534afa28c7096c2e50.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-33d1a8adacac2f5666660552884da730.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,14 +163,77 @@ cookieconsent.run({
 </script>
 
 
-<meta property="og:title" content="anndataR – Jiru">
-<meta property="og:description" content="AnnData interoperability in R">
-<meta property="og:image" content="https://JiruHan.com/projects/anndataR/thumbnail.png">
+<meta property="og:title" content="HTRA1/lncRNA HTRA1-AS1 dominates in age-related macular degeneration reticular pseudodrusen genetic risk with no complement involvement – Jiru">
+<meta property="og:description" content="Age-related macular degeneration (AMD) is a multifactorial retinal disease with a large genetic risk contribution. Reticular pseudodrusen (RPD) is a sub-phenotype of AMD with a high risk of progression to late vision threatening AMD. In a genome-wide association study of 2165 AMD+/RPD+ and 4181 AMD+/RPD- compared to 7639 control participants, both chromosomes 1 (CFH) and 10 (ARMS2/HTRA1) major AMD risk loci are reidentified. However association is only detected for the chromosome 10 locus when comparing AMD+/RPD+ to AMD+/RPD- cases. The chromosome 1 locus is notably absent. The chromosome 10 RPD risk region contains a long non-coding RNA HTRA1-AS1 (ENSG00000285955/BX842242.1) which colocalizes with genetic markers of retinal thickness. HTRA1-AS1 has a strong retinal eQTL signal, pinpointing the parafoveal photoreceptor outer segment layer. Whole genome sequencing of phenotypically extreme RPD cases identifies even stronger enrichment for the chromosome 10 risk genotype.">
+<meta property="og:image" content="https://JiruHan.com/projects/amd/amd.png">
 <meta property="og:site_name" content="Jiru">
 <meta property="og:locale" content="en_AU">
-<meta property="og:image:height" content="277">
-<meta property="og:image:width" content="240">
-<meta property="og:image:alt" content="anndataR logo">
+<meta property="og:image:height" content="1356">
+<meta property="og:image:width" content="1866">
+<meta name="citation_title" content="HTRA1/lncRNA HTRA1-AS1 dominates in age-related macular degeneration reticular pseudodrusen genetic risk with no complement involvement">
+<meta name="citation_abstract" content="Age-related macular degeneration (AMD) is a multifactorial retinal disease with a large genetic risk contribution. Reticular pseudodrusen (RPD) is a sub-phenotype of AMD with a high risk of progression to late vision threatening AMD. In a genome-wide association study of 2165 AMD+/RPD+ and 4181 AMD+/RPD- compared to 7639 control participants, both chromosomes 1 (CFH) and 10 (ARMS2/HTRA1) major AMD risk loci are reidentified. However association is only detected for the chromosome 10 locus when comparing AMD+/RPD+ to AMD+/RPD- cases. The chromosome 1 locus is notably absent. The chromosome 10 RPD risk region contains a long non-coding RNA HTRA1-AS1 (ENSG00000285955/BX842242.1) which colocalizes with genetic markers of retinal thickness. HTRA1-AS1 has a strong retinal eQTL signal, pinpointing the parafoveal photoreceptor outer segment layer. Whole genome sequencing of phenotypically extreme RPD cases identifies even stronger enrichment for the chromosome 10 risk genotype.
+">
+<meta name="citation_author" content="Samaneh Farashi">
+<meta name="citation_author" content="Carla J. Abbott">
+<meta name="citation_author" content="Brendan R. E. Ansell">
+<meta name="citation_author" content="Zhichao Wu">
+<meta name="citation_author" content="Lebriz Altay">
+<meta name="citation_author" content="Ella Arnon">
+<meta name="citation_author" content="Louis Arnould">
+<meta name="citation_author" content="Yelena Bagdasarova">
+<meta name="citation_author" content="Konstantinos Balaskas">
+<meta name="citation_author" content="Fred K. Chen">
+<meta name="citation_author" content="Emily Chew">
+<meta name="citation_author" content="Itay Chowers">
+<meta name="citation_author" content="Steven Clarke">
+<meta name="citation_author" content="Catherine Cukras">
+<meta name="citation_author" content="Cécile Delcourt">
+<meta name="citation_author" content="Marie-Noëlle Delyfer">
+<meta name="citation_author" content="Anneke I. den Hollander">
+<meta name="citation_author" content="Sascha Fauser">
+<meta name="citation_author" content="Robert P. Finger">
+<meta name="citation_author" content="Pierre-Henry Gabrielle">
+<meta name="citation_author" content="Jiru Han">
+<meta name="citation_author" content="Lauren A. B. Hodgson">
+<meta name="citation_author" content="Ruth Hogg">
+<meta name="citation_author" content="Frank G. Holz">
+<meta name="citation_author" content="Carel Hoyng">
+<meta name="citation_author" content="Himeesh Kumar">
+<meta name="citation_author" content="Eleonora M. Lad">
+<meta name="citation_author" content="Aaron Lee">
+<meta name="citation_author" content="Ulrich F. O. Luhmann">
+<meta name="citation_author" content="Matthias M. Mauschitz">
+<meta name="citation_author" content="Amy J. McKnight">
+<meta name="citation_author" content="Samuel McLenachan">
+<meta name="citation_author" content="Aniket Mishra">
+<meta name="citation_author" content="Ismail Moghul">
+<meta name="citation_author" content="Luz D. Orozco">
+<meta name="citation_author" content="Danuta M. Sampson">
+<meta name="citation_author" content="Liam W. Scott">
+<meta name="citation_author" content="Vasilena Sitnilska">
+<meta name="citation_author" content="Scott Song">
+<meta name="citation_author" content="Amy Stockwell">
+<meta name="citation_author" content="Anand Swaroop">
+<meta name="citation_author" content="Jan H. Terheyden">
+<meta name="citation_author" content="Liran Tiosano">
+<meta name="citation_author" content="Adnan Tufail">
+<meta name="citation_author" content="Brian L. Yaspan">
+<meta name="citation_author" content="MACUSTAR consortium">
+<meta name="citation_author" content="NICOLA consortium">
+<meta name="citation_author" content="Alice Pébay">
+<meta name="citation_author" content="Erica L. Fletcher">
+<meta name="citation_author" content="Robyn H. Guymer">
+<meta name="citation_author" content="Melanie Bahlo">
+<meta name="citation_author" content="On behalf of the Reticular Pseudodrusen Consortium">
+<meta name="citation_publication_date" content="2025-12-08">
+<meta name="citation_cover_date" content="2025-12-08">
+<meta name="citation_year" content="2025">
+<meta name="citation_online_date" content="2025-12-08">
+<meta name="citation_fulltext_html_url" content="https://doi.org/10.1038/s41467-025-65903-9">
+<meta name="citation_doi" content="10.1038/s41467-025-65903-9">
+<meta name="citation_volume" content="16">
+<meta name="citation_language" content="en">
+<meta name="citation_journal_title" content="Nature Communications">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -302,16 +416,8 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../posts/index.html"> 
-<span class="menu-text">Posts</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../talks/index.html"> 
-<span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../publications/index.html"> 
@@ -348,22 +454,13 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">anndataR</h1>
+<h1 class="title">HTRA1/lncRNA HTRA1-AS1 dominates in age-related macular degeneration reticular pseudodrusen genetic risk with no complement involvement</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">single-cell</div>
-    <div class="quarto-category">rna-seq</div>
-    <div class="quarto-category">interoperability</div>
-    <div class="quarto-category">software</div>
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">Bioconductor</div>
+    <div class="quarto-category">Age-related macular degeneration</div>
+    <div class="quarto-category">GWAS</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    AnnData interoperability in R
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -372,39 +469,162 @@ cookieconsent.run({
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
               <p>
-                              Robrecht Cannoodt
+                              Samaneh Farashi
+                                      </p>
+              <p>
+                              Carla J. Abbott
+                                      </p>
+              <p>
+                              Brendan R. E. Ansell
+                                      </p>
+              <p>
+                              Zhichao Wu
+                                      </p>
+              <p>
+                              Lebriz Altay
+                                      </p>
+              <p>
+                              Ella Arnon
+                                      </p>
+              <p>
+                              Louis Arnould
+                                      </p>
+              <p>
+                              Yelena Bagdasarova
+                                      </p>
+              <p>
+                              Konstantinos Balaskas
+                                      </p>
+              <p>
+                              Fred K. Chen
+                                      </p>
+              <p>
+                              Emily Chew
+                                      </p>
+              <p>
+                              Itay Chowers
+                                      </p>
+              <p>
+                              Steven Clarke
+                                      </p>
+              <p>
+                              Catherine Cukras
+                                      </p>
+              <p>
+                              Cécile Delcourt
+                                      </p>
+              <p>
+                              Marie-Noëlle Delyfer
+                                      </p>
+              <p>
+                              Anneke I. den Hollander
+                                      </p>
+              <p>
+                              Sascha Fauser
+                                      </p>
+              <p>
+                              Robert P. Finger
+                                      </p>
+              <p>
+                              Pierre-Henry Gabrielle
                                       </p>
               <p>
                                 </p><p style="color: #eb008d"><strong>
-                    Luke Zappia
+                    Jiru Han
                       </strong></p>
                                       <p></p>
               <p>
-                              Martin Morgan
+                              Lauren A. B. Hodgson
                                       </p>
               <p>
-                              Louise Deconinck
+                              Ruth Hogg
                                       </p>
               <p>
-                              Danila Bredikhin
+                              Frank G. Holz
                                       </p>
               <p>
-                              Isaac Virshup
+                              Carel Hoyng
                                       </p>
               <p>
-                              Brian Schilder
+                              Himeesh Kumar
                                       </p>
               <p>
-                              Chananchida Sang-aram
+                              Eleonora M. Lad
                                       </p>
               <p>
-                              Data Intuitive
+                              Aaron Lee
                                       </p>
               <p>
-                              Chan Zuckerberg Initiative
+                              Ulrich F. O. Luhmann
                                       </p>
               <p>
-                              scverse consortium
+                              Matthias M. Mauschitz
+                                      </p>
+              <p>
+                              Amy J. McKnight
+                                      </p>
+              <p>
+                              Samuel McLenachan
+                                      </p>
+              <p>
+                              Aniket Mishra
+                                      </p>
+              <p>
+                              Ismail Moghul
+                                      </p>
+              <p>
+                              Luz D. Orozco
+                                      </p>
+              <p>
+                              Danuta M. Sampson
+                                      </p>
+              <p>
+                              Liam W. Scott
+                                      </p>
+              <p>
+                              Vasilena Sitnilska
+                                      </p>
+              <p>
+                              Scott Song
+                                      </p>
+              <p>
+                              Amy Stockwell
+                                      </p>
+              <p>
+                              Anand Swaroop
+                                      </p>
+              <p>
+                              Jan H. Terheyden
+                                      </p>
+              <p>
+                              Liran Tiosano
+                                      </p>
+              <p>
+                              Adnan Tufail
+                                      </p>
+              <p>
+                              Brian L. Yaspan
+                                      </p>
+              <p>
+                              MACUSTAR consortium
+                                      </p>
+              <p>
+                              NICOLA consortium
+                                      </p>
+              <p>
+                              Alice Pébay
+                                      </p>
+              <p>
+                              Erica L. Fletcher
+                                      </p>
+              <p>
+                              Robyn H. Guymer
+                                      </p>
+              <p>
+                              Melanie Bahlo
+                                      </p>
+              <p>
+                              On behalf of the Reticular Pseudodrusen Consortium
                                       </p>
           </div>
   </div>
@@ -412,7 +632,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 6, 2025</p>
+      <p class="date">December 8, 2025</p>
     </div>
   </div>
   
@@ -421,17 +641,14 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Links</div>
     <div class="quarto-title-meta-contents">
-                    <a type="button" class="btn btn-outline-primary" href="https://bioconductor.org/packages/anndataR">Package</a>
-                    <a type="button" class="btn btn-outline-primary" href="https://github.com/scverse/anndataR">Code</a>
-                    <a type="button" class="btn btn-outline-primary" href="https://doi.org/10.1101/2025.08.18.669052">DOI</a>
-                                <a type="button" class="btn btn-outline-primary" href="https://anndatar.data-intuitive.com/">Website</a>
-                      </div>
+                                <a type="button" class="btn btn-outline-primary" href="https://doi.org/https://doi.org/10.1038/s41467-025-65903-9">DOI</a>
+                                        </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Citation stats</div>
     <div class="quarto-title-meta-contents">
-      <div class="scite-badge" data-doi="10.1101/2025.08.18.669052" data-layout="vertical" data-show-zero="true" data-small="false" data-show-labels="true" data-tally-show="true">
+      <div class="scite-badge" data-doi="https://doi.org/10.1038/s41467-025-65903-9" data-layout="vertical" data-show-zero="true" data-small="false" data-show-labels="true" data-tally-show="true">
       </div>
     </div>
   </div>
@@ -441,20 +658,75 @@ cookieconsent.run({
 </div>
 
 <div class="quarto-title-meta-contents">
-    <img src="thumbnail.png" class="img-fluid" alt="anndataR logo">
+    <img src="amd.png" class="img-fluid" alt="">
     </div>
 
+<div>
+  <div class="abstract">
+    <div class="abstract-title">Abstract</div>
+    <p>Age-related macular degeneration (AMD) is a multifactorial retinal disease with a large genetic risk contribution. Reticular pseudodrusen (RPD) is a sub-phenotype of AMD with a high risk of progression to late vision threatening AMD. In a genome-wide association study of 2165 AMD+/RPD+ and 4181 AMD+/RPD- compared to 7639 control participants, both chromosomes 1 (CFH) and 10 (ARMS2/HTRA1) major AMD risk loci are reidentified. However association is only detected for the chromosome 10 locus when comparing AMD+/RPD+ to AMD+/RPD- cases. The chromosome 1 locus is notably absent. The chromosome 10 RPD risk region contains a long non-coding RNA HTRA1-AS1 (ENSG00000285955/BX842242.1) which colocalizes with genetic markers of retinal thickness. HTRA1-AS1 has a strong retinal eQTL signal, pinpointing the parafoveal photoreceptor outer segment layer. Whole genome sequencing of phenotypically extreme RPD cases identifies even stronger enrichment for the chromosome 10 risk genotype.</p>
+  </div>
+</div>
 
 
 
 </header>
 
 
-<p><strong>{anndataR}</strong> is a Bioconductor R implementation of the <a href="https://anndata.readthedocs.io/en/latest/index.html"><code>AnnData</code></a> data structure, used in the Python scverse ecosystem. It provides an R <code>AnnData</code> object with native reading and writing of H5AD files. Users can interact with the <code>AnnData</code> object directly, or use flexible functions to convert to and from <a href="https://bioconductor.org/packages/SingleCellExperiment/"><code>SingleCellExperiment</code></a> or <a href="https://satijalab.org/seurat/"><code>Seurat</code></a> objects.</p>
 
 
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{farashi2025,
+  author = {Farashi, Samaneh and J. Abbott, Carla and R. E. Ansell,
+    Brendan and Wu, Zhichao and Altay, Lebriz and Arnon, Ella and
+    Arnould, Louis and Bagdasarova, Yelena and Balaskas, Konstantinos
+    and K. Chen, Fred and Chew, Emily and Chowers, Itay and Clarke,
+    Steven and Cukras, Catherine and Delcourt, Cécile and Delyfer,
+    Marie-Noëlle and I. den Hollander, Anneke and Fauser, Sascha and P.
+    Finger, Robert and Gabrielle, Pierre-Henry and Han, Jiru and A. B.
+    Hodgson, Lauren and Hogg, Ruth and G. Holz, Frank and Hoyng, Carel
+    and Kumar, Himeesh and M. Lad, Eleonora and Lee, Aaron and F. O.
+    Luhmann, Ulrich and M. Mauschitz, Matthias and J. McKnight, Amy and
+    McLenachan, Samuel and Mishra, Aniket and Moghul, Ismail and D.
+    Orozco, Luz and M. Sampson, Danuta and W. Scott, Liam and Sitnilska,
+    Vasilena and Song, Scott and Stockwell, Amy and Swaroop, Anand and
+    H. Terheyden, Jan and Tiosano, Liran and Tufail, Adnan and L.
+    Yaspan, Brian and consortium, MACUSTAR and consortium, NICOLA and
+    Pébay, Alice and L. Fletcher, Erica and H. Guymer, Robyn and Bahlo,
+    Melanie and behalf of the Reticular Pseudodrusen Consortium, On},
+  title = {HTRA1/lncRNA {HTRA1-AS1} Dominates in Age-Related Macular
+    Degeneration Reticular Pseudodrusen Genetic Risk with No Complement
+    Involvement},
+  journal = {Nature Communications},
+  volume = {16},
+  date = {2025-12-08},
+  url = {https://doi.org/10.1038/s41467-025-65903-9},
+  doi = {10.1038/s41467-025-65903-9},
+  langid = {en},
+  abstract = {Age-related macular degeneration (AMD) is a multifactorial
+    retinal disease with a large genetic risk contribution. Reticular
+    pseudodrusen (RPD) is a sub-phenotype of AMD with a high risk of
+    progression to late vision threatening AMD. In a genome-wide
+    association study of 2165 AMD+/RPD+ and 4181 AMD+/RPD- compared to
+    7639 control participants, both chromosomes 1 (CFH) and 10
+    (ARMS2/HTRA1) major AMD risk loci are reidentified. However
+    association is only detected for the chromosome 10 locus when
+    comparing AMD+/RPD+ to AMD+/RPD- cases. The chromosome 1 locus is
+    notably absent. The chromosome 10 RPD risk region contains a long
+    non-coding RNA HTRA1-AS1 (ENSG00000285955/BX842242.1) which
+    colocalizes with genetic markers of retinal thickness. HTRA1-AS1 has
+    a strong retinal eQTL signal, pinpointing the parafoveal
+    photoreceptor outer segment layer. Whole genome sequencing of
+    phenotypically extreme RPD cases identifies even stronger enrichment
+    for the chromosome 10 risk genotype.}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-farashi2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+<span class="nocase">Farashi, Samaneh, Carla J. Abbott, Brendan R. E.
+Ansell, et al.</span> 2025. <span>“HTRA1/lncRNA HTRA1-AS1 Dominates in
+Age-Related Macular Degeneration Reticular Pseudodrusen Genetic Risk
+with No Complement Involvement.”</span> <em>Nature Communications</em>
+16 (December). <a href="https://doi.org/10.1038/s41467-025-65903-9">https://doi.org/10.1038/s41467-025-65903-9</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -874,7 +1146,7 @@ cookieconsent.run({
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © 2017-2026, Jiru Han
+ © 2022-2026, Jiru Han
   </li>  
 </ul>
     </div>   

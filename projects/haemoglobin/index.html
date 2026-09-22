@@ -6,10 +6,28 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-06">
-<meta name="description" content="AnnData interoperability in R">
+<meta name="author" content="Sabine Braat">
+<meta name="author" content="Katherine L Fielding">
+<meta name="author" content="Jiru Han">
+<meta name="author" content="Victoria E Jackson">
+<meta name="author" content="Sophie Zaloumis">
+<meta name="author" content="Jessica Xu Hui Xu">
+<meta name="author" content="Gemma Moir-Meyer">
+<meta name="author" content="Sophia M Blaauwendraad">
+<meta name="author" content="Vincent W V Jaddoe">
+<meta name="author" content="Romy Gaillard">
+<meta name="author" content="Patricia C Parkin">
+<meta name="author" content="Cornelia M Borkhoff">
+<meta name="author" content="Charles D G Keown-Stoneman">
+<meta name="author" content="Catherine S Birken">
+<meta name="author" content="Jonathon L Maguire">
+<meta name="author" content="Genes &amp; Health Research Team">
+<meta name="author" content="Melanie Bahlo">
+<meta name="author" content="Eliza M Davidson">
+<meta name="author" content="Sant-Rayn Pasricha">
+<meta name="dcterms.date" content="2024-02-29">
 
-<title>anndataR – Jiru</title>
+<title>Haemoglobin thresholds to define anaemia from age 6 months to 65 years estimates from international data sources – Jiru</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -51,9 +69,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ebdf89c3206ed1269a7c4c4a3731a565.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-9648749e185b33e1ebbc9496ddc91535.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-ebdf89c3206ed1269a7c4c4a3731a565.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-33d1a8adacac2f5666660552884da730.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-36e8b4182258cc534afa28c7096c2e50.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-33d1a8adacac2f5666660552884da730.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,14 +130,45 @@ cookieconsent.run({
 </script>
 
 
-<meta property="og:title" content="anndataR – Jiru">
-<meta property="og:description" content="AnnData interoperability in R">
-<meta property="og:image" content="https://JiruHan.com/projects/anndataR/thumbnail.png">
+<meta property="og:title" content="Haemoglobin thresholds to define anaemia from age 6 months to 65 years estimates from international data sources – Jiru">
+<meta property="og:description" content="Detection of anaemia is crucial for clinical medicine and public health. Current WHO anaemia definitions are based on statistical thresholds (fifth centiles) set more than 50 years ago. We sought to establish evidence for the statistical haemoglobin thresholds for anaemia that can be applied globally and inform WHO and clinical guidelines. We identified eight data sources comprising 18 individual datasets that were eligible for inclusion in the analysis. In pooled analyses, the haemoglobin fifth centile was 104·4 g/L (90% CI 103·5-105·3) in 924 children aged 6-23 months, 110·2 g/L (109·5-110·9) in 1874 children aged 24-59 months, and 114·4 g/L (113·6-115·2) in 1839 children aged 5-11 years. Values diverged by sex in adolescents and adults. In pooled analyses, the fifth centile was 122·2 g/L (90% CI 121·3-123·1) in 1741 female adolescents aged 12-17 years and 128·2 g/L (126·4-130·0) in 1103 male adolescents aged 12-17 years. In pooled analyses of adults aged 18-65 years, the fifth centile was 119·7 g/L (90% CI 119·1-120·3) in 3640 non-pregnant females and 134·9 g/L (134·2-135·6) in 2377 males. Fifth centiles in pregnancy were 110·3 g/L (90% CI 109·5-111·0) in the first trimester (n=772) and 105·9 g/L (104·0-107·7) in the second trimester (n=111), with insufficient data for analysis in the third trimester. There were insufficient data for adults older than 65 years. We did not identify ancestry-specific high prevalence of non-clinically relevant genetic variants that influence haemoglobin concentrations.">
+<meta property="og:image" content="https://JiruHan.com/projects/haemoglobin/haemoglobin.png">
 <meta property="og:site_name" content="Jiru">
 <meta property="og:locale" content="en_AU">
-<meta property="og:image:height" content="277">
-<meta property="og:image:width" content="240">
-<meta property="og:image:alt" content="anndataR logo">
+<meta property="og:image:height" content="1254">
+<meta property="og:image:width" content="1254">
+<meta name="citation_title" content="Haemoglobin thresholds to define anaemia from age 6 months to 65 years estimates from international data sources">
+<meta name="citation_abstract" content="Detection of anaemia is crucial for clinical medicine and public health. Current WHO anaemia definitions are based on statistical thresholds (fifth centiles) set more than 50 years ago. We sought to establish evidence for the statistical haemoglobin thresholds for anaemia that can be applied globally and inform WHO and clinical guidelines. We identified eight data sources comprising 18 individual datasets that were eligible for inclusion in the analysis. In pooled analyses, the haemoglobin fifth centile was 104·4 g/L (90% CI 103·5-105·3) in 924 children aged 6-23 months, 110·2 g/L (109·5-110·9) in 1874 children aged 24-59 months, and 114·4 g/L (113·6-115·2) in 1839 children aged 5-11 years. Values diverged by sex in adolescents and adults. In pooled analyses, the fifth centile was 122·2 g/L (90% CI 121·3-123·1) in 1741 female adolescents aged 12-17 years and 128·2 g/L (126·4-130·0) in 1103 male adolescents aged 12-17 years. In pooled analyses of adults aged 18-65 years, the fifth centile was 119·7 g/L (90% CI 119·1-120·3) in 3640 non-pregnant females and 134·9 g/L (134·2-135·6) in 2377 males. Fifth centiles in pregnancy were 110·3 g/L (90% CI 109·5-111·0) in the first trimester (n=772) and 105·9 g/L (104·0-107·7) in the second trimester (n=111), with insufficient data for analysis in the third trimester. There were insufficient data for adults older than 65 years. We did not identify ancestry-specific high prevalence of non-clinically relevant genetic variants that influence haemoglobin concentrations.
+">
+<meta name="citation_author" content="Sabine Braat">
+<meta name="citation_author" content="Katherine L Fielding">
+<meta name="citation_author" content="Jiru Han">
+<meta name="citation_author" content="Victoria E Jackson">
+<meta name="citation_author" content="Sophie Zaloumis">
+<meta name="citation_author" content="Jessica Xu Hui Xu">
+<meta name="citation_author" content="Gemma Moir-Meyer">
+<meta name="citation_author" content="Sophia M Blaauwendraad">
+<meta name="citation_author" content="Vincent W V Jaddoe">
+<meta name="citation_author" content="Romy Gaillard">
+<meta name="citation_author" content="Patricia C Parkin">
+<meta name="citation_author" content="Cornelia M Borkhoff">
+<meta name="citation_author" content="Charles D G Keown-Stoneman">
+<meta name="citation_author" content="Catherine S Birken">
+<meta name="citation_author" content="Jonathon L Maguire">
+<meta name="citation_author" content="Genes &amp;amp; Health Research Team">
+<meta name="citation_author" content="Melanie Bahlo">
+<meta name="citation_author" content="Eliza M Davidson">
+<meta name="citation_author" content="Sant-Rayn Pasricha">
+<meta name="citation_publication_date" content="2024-02-29">
+<meta name="citation_cover_date" content="2024-02-29">
+<meta name="citation_year" content="2024">
+<meta name="citation_online_date" content="2024-02-29">
+<meta name="citation_fulltext_html_url" content="https://doi.org/10.1016/s2352-3026(24)00030-9">
+<meta name="citation_issue" content="4">
+<meta name="citation_doi" content="10.1016/S2352-3026(24)00030-9">
+<meta name="citation_volume" content="11">
+<meta name="citation_language" content="en">
+<meta name="citation_journal_title" content="The Lancet Haematology">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -302,16 +351,8 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../posts/index.html"> 
-<span class="menu-text">Posts</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../talks/index.html"> 
-<span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../publications/index.html"> 
@@ -348,22 +389,14 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">anndataR</h1>
+<h1 class="title">Haemoglobin thresholds to define anaemia from age 6 months to 65 years estimates from international data sources</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">single-cell</div>
-    <div class="quarto-category">rna-seq</div>
-    <div class="quarto-category">interoperability</div>
-    <div class="quarto-category">software</div>
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">Bioconductor</div>
+    <div class="quarto-category">Haemoglobin thresholds</div>
+    <div class="quarto-category">WHO</div>
+    <div class="quarto-category">Population Genetics</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    AnnData interoperability in R
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -372,39 +405,63 @@ cookieconsent.run({
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
               <p>
-                              Robrecht Cannoodt
+                              Sabine Braat
+                                      </p>
+              <p>
+                              Katherine L Fielding
                                       </p>
               <p>
                                 </p><p style="color: #eb008d"><strong>
-                    Luke Zappia
+                    Jiru Han
                       </strong></p>
                                       <p></p>
               <p>
-                              Martin Morgan
+                              Victoria E Jackson
                                       </p>
               <p>
-                              Louise Deconinck
+                              Sophie Zaloumis
                                       </p>
               <p>
-                              Danila Bredikhin
+                              Jessica Xu Hui Xu
                                       </p>
               <p>
-                              Isaac Virshup
+                              Gemma Moir-Meyer
                                       </p>
               <p>
-                              Brian Schilder
+                              Sophia M Blaauwendraad
                                       </p>
               <p>
-                              Chananchida Sang-aram
+                              Vincent W V Jaddoe
                                       </p>
               <p>
-                              Data Intuitive
+                              Romy Gaillard
                                       </p>
               <p>
-                              Chan Zuckerberg Initiative
+                              Patricia C Parkin
                                       </p>
               <p>
-                              scverse consortium
+                              Cornelia M Borkhoff
+                                      </p>
+              <p>
+                              Charles D G Keown-Stoneman
+                                      </p>
+              <p>
+                              Catherine S Birken
+                                      </p>
+              <p>
+                              Jonathon L Maguire
+                                      </p>
+              <p>
+                              Genes &amp; Health Research Team
+                                      </p>
+              <p>
+                              Melanie Bahlo
+                                      </p>
+              <p>
+                              Eliza M Davidson
+                                      </p>
+              <p>
+                              Sant-Rayn Pasricha
                                       </p>
           </div>
   </div>
@@ -412,7 +469,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 6, 2025</p>
+      <p class="date">February 29, 2024</p>
     </div>
   </div>
   
@@ -421,17 +478,14 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Links</div>
     <div class="quarto-title-meta-contents">
-                    <a type="button" class="btn btn-outline-primary" href="https://bioconductor.org/packages/anndataR">Package</a>
-                    <a type="button" class="btn btn-outline-primary" href="https://github.com/scverse/anndataR">Code</a>
-                    <a type="button" class="btn btn-outline-primary" href="https://doi.org/10.1101/2025.08.18.669052">DOI</a>
-                                <a type="button" class="btn btn-outline-primary" href="https://anndatar.data-intuitive.com/">Website</a>
-                      </div>
+                                <a type="button" class="btn btn-outline-primary" href="https://doi.org/https://doi.org/10.1016/s2352-3026(24)00030-9">DOI</a>
+                                        </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Citation stats</div>
     <div class="quarto-title-meta-contents">
-      <div class="scite-badge" data-doi="10.1101/2025.08.18.669052" data-layout="vertical" data-show-zero="true" data-small="false" data-show-labels="true" data-tally-show="true">
+      <div class="scite-badge" data-doi="https://doi.org/10.1016/s2352-3026(24)00030-9" data-layout="vertical" data-show-zero="true" data-small="false" data-show-labels="true" data-tally-show="true">
       </div>
     </div>
   </div>
@@ -441,20 +495,72 @@ cookieconsent.run({
 </div>
 
 <div class="quarto-title-meta-contents">
-    <img src="thumbnail.png" class="img-fluid" alt="anndataR logo">
+    <img src="haemoglobin.png" class="img-fluid" alt="">
     </div>
 
+<div>
+  <div class="abstract">
+    <div class="abstract-title">Abstract</div>
+    <p>Detection of anaemia is crucial for clinical medicine and public health. Current WHO anaemia definitions are based on statistical thresholds (fifth centiles) set more than 50 years ago. We sought to establish evidence for the statistical haemoglobin thresholds for anaemia that can be applied globally and inform WHO and clinical guidelines. We identified eight data sources comprising 18 individual datasets that were eligible for inclusion in the analysis. In pooled analyses, the haemoglobin fifth centile was 104·4 g/L (90% CI 103·5-105·3) in 924 children aged 6-23 months, 110·2 g/L (109·5-110·9) in 1874 children aged 24-59 months, and 114·4 g/L (113·6-115·2) in 1839 children aged 5-11 years. Values diverged by sex in adolescents and adults. In pooled analyses, the fifth centile was 122·2 g/L (90% CI 121·3-123·1) in 1741 female adolescents aged 12-17 years and 128·2 g/L (126·4-130·0) in 1103 male adolescents aged 12-17 years. In pooled analyses of adults aged 18-65 years, the fifth centile was 119·7 g/L (90% CI 119·1-120·3) in 3640 non-pregnant females and 134·9 g/L (134·2-135·6) in 2377 males. Fifth centiles in pregnancy were 110·3 g/L (90% CI 109·5-111·0) in the first trimester (n=772) and 105·9 g/L (104·0-107·7) in the second trimester (n=111), with insufficient data for analysis in the third trimester. There were insufficient data for adults older than 65 years. We did not identify ancestry-specific high prevalence of non-clinically relevant genetic variants that influence haemoglobin concentrations.</p>
+  </div>
+</div>
 
 
 
 </header>
 
 
-<p><strong>{anndataR}</strong> is a Bioconductor R implementation of the <a href="https://anndata.readthedocs.io/en/latest/index.html"><code>AnnData</code></a> data structure, used in the Python scverse ecosystem. It provides an R <code>AnnData</code> object with native reading and writing of H5AD files. Users can interact with the <code>AnnData</code> object directly, or use flexible functions to convert to and from <a href="https://bioconductor.org/packages/SingleCellExperiment/"><code>SingleCellExperiment</code></a> or <a href="https://satijalab.org/seurat/"><code>Seurat</code></a> objects.</p>
 
 
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{braat2024,
+  author = {Braat, Sabine and L Fielding, Katherine and Han, Jiru and E
+    Jackson, Victoria and Zaloumis, Sophie and Xu Hui Xu, Jessica and
+    Moir-Meyer, Gemma and M Blaauwendraad, Sophia and W V Jaddoe,
+    Vincent and Gaillard, Romy and C Parkin, Patricia and M Borkhoff,
+    Cornelia and D G Keown-Stoneman, Charles and S Birken, Catherine and
+    L Maguire, Jonathon and \&amp; Health Research Team, Genes and Bahlo,
+    Melanie and M Davidson, Eliza and Pasricha, Sant-Rayn},
+  title = {Haemoglobin Thresholds to Define Anaemia from Age 6 Months to
+    65 Years Estimates from International Data Sources},
+  journal = {The Lancet Haematology},
+  volume = {11},
+  number = {4},
+  date = {2024-02-29},
+  url = {https://doi.org/10.1016/s2352-3026(24)00030-9},
+  doi = {10.1016/S2352-3026(24)00030-9},
+  langid = {en},
+  abstract = {Detection of anaemia is crucial for clinical medicine and
+    public health. Current WHO anaemia definitions are based on
+    statistical thresholds (fifth centiles) set more than 50 years ago.
+    We sought to establish evidence for the statistical haemoglobin
+    thresholds for anaemia that can be applied globally and inform WHO
+    and clinical guidelines. We identified eight data sources comprising
+    18 individual datasets that were eligible for inclusion in the
+    analysis. In pooled analyses, the haemoglobin fifth centile was
+    104·4 g/L (90\% CI 103·5-105·3) in 924 children aged 6-23 months,
+    110·2 g/L (109·5-110·9) in 1874 children aged 24-59 months, and
+    114·4 g/L (113·6-115·2) in 1839 children aged 5-11 years. Values
+    diverged by sex in adolescents and adults. In pooled analyses, the
+    fifth centile was 122·2 g/L (90\% CI 121·3-123·1) in 1741 female
+    adolescents aged 12-17 years and 128·2 g/L (126·4-130·0) in 1103
+    male adolescents aged 12-17 years. In pooled analyses of adults aged
+    18-65 years, the fifth centile was 119·7 g/L (90\% CI 119·1-120·3)
+    in 3640 non-pregnant females and 134·9 g/L (134·2-135·6) in 2377
+    males. Fifth centiles in pregnancy were 110·3 g/L (90\% CI
+    109·5-111·0) in the first trimester (n=772) and 105·9 g/L
+    (104·0-107·7) in the second trimester (n=111), with insufficient
+    data for analysis in the third trimester. There were insufficient
+    data for adults older than 65 years. We did not identify
+    ancestry-specific high prevalence of non-clinically relevant genetic
+    variants that influence haemoglobin concentrations.}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-braat2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Braat, Sabine, Katherine L Fielding, Jiru Han, et al. 2024.
+<span>“Haemoglobin Thresholds to Define Anaemia from Age 6 Months to 65
+Years Estimates from International Data Sources.”</span> <em>The Lancet
+Haematology</em> 11 (4). <a href="https://doi.org/10.1016/S2352-3026(24)00030-9">https://doi.org/10.1016/S2352-3026(24)00030-9</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -874,7 +980,7 @@ cookieconsent.run({
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © 2017-2026, Jiru Han
+ © 2022-2026, Jiru Han
   </li>  
 </ul>
     </div>   

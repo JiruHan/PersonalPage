@@ -1,12 +1,5 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/spinalcord/index.html",
-      "/projects/rib/index.html"
-    ]
-  },
-  {
     "listing": "/publications/index.html",
     "items": [
       "/publications/2026-jiru-spinalcord/index.html",
@@ -21,6 +14,17 @@
       "/publications/2024-jiru-pd/index.html",
       "/publications/2022-jiru-cmi/index.html",
       "/publications/2022-jiru-STR/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/spinalcord/index.html",
+      "/projects/rib/index.html",
+      "/projects/haemoglobin/index.html",
+      "/projects/cell/index.html",
+      "/projects/str/index.html",
+      "/projects/amd/index.html"
     ]
   }
 ]
