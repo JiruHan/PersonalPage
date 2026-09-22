@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 listing:
-  - id: biobank
+  - id: ai
     contents:
     - "spinalcord/index.qmd"
     - "rib/index.qmd"
@@ -10,10 +10,12 @@ listing:
     categories: true
     fields: [image, title, description, categories]
     image-placeholder: "../icon.png"
-  - id: try
+  - id: genetics
     contents:
-    - "prettytc/index.qmd"
-    - "tidydirectory/index.qmd"
+    - "haemoglobin/index.qmd"
+    - "cell/index.qmd"
+    - "str/index.qmd"
+    - "amd/index.qmd"
     type: grid
     sort: "false"
     categories: true
@@ -53,14 +55,14 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-# Large-scale Biobank Imaging-Genetics
+# AI Image-Omics for Genetic Discovery 
 
-:::{#biobank}
+:::{#ai}
 :::
 
-# Packages
+# Statistical Genetics, Population Genomics & Translational Research
 
-:::{#packages}
+:::{#genetics}
 :::
 
 # Scripts
