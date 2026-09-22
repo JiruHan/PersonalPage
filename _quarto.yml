@@ -10,7 +10,6 @@ website:
     pinned: true
     left:
       - projects/index.qmd
-      - talks/index.qmd
       - publications/index.qmd
     right:
       - icon: github
