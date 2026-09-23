@@ -1,7 +1,7 @@
 ---
 title: "Jiru Han"
 subtitle: |
-  Bioinformatician, data scientist, statistical geneticist, package developer
+  Bioinformatician, Data scientist, Statistical geneticist, Package developer
 
   (she/her)
 image: profile.png
