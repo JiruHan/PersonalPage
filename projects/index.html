@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -496,7 +496,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="QWdlLXJlbGF0ZWQlMjBtYWN1bGFyJTIwZGVnZW5lcmF0aW9u">Age-related macular degeneration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmlvYmFuaw==">Biobank <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RTMlMjB1YmlxdWl0aW4lMjBsaWdhc2U=">E3 ubiquitin ligase <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZSUyRnZhcmlhbnQtcGhlbm90eXBlJTIwYXNzb2NpYXRpb25z">Gene/variant-phenotype associations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R1dBUw==">GWAS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SGFlbW9nbG9iaW4lMjB0aHJlc2hvbGRz">Haemoglobin thresholds <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW1hZ2luZy1nZW5ldGljcw==">Imaging-genetics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWl0b2Nob25kcmlhbCUyMEROQSUyMGNvcHklMjBudW1iZXI=">Mitochondrial DNA copy number <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGFya2luc29uJUUyJTgwJTk5cyUyMGRpc2Vhc2U=">Parkinson’s disease <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxhc21vZGl1bQ==">Plasmodium <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9wdWxhdGlvbiUyMEdlbmV0aWNz">Population Genetics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2hvcnQlMjBUYW5kZW0lMjBSZXBlYXRz">Short Tandem Repeats <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3BpbmFsJTIwY29yZA==">Spinal cord <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VUslMjBCaW9iYW5r">UK Biobank <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V0hP">WHO <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="QWdlLXJlbGF0ZWQlMjBtYWN1bGFyJTIwZGVnZW5lcmF0aW9u">Age-related macular degeneration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmlvYmFuaw==">Biobank <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RTMlMjB1YmlxdWl0aW4lMjBsaWdhc2U=">E3 ubiquitin ligase <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZSUyRnZhcmlhbnQtcGhlbm90eXBlJTIwYXNzb2NpYXRpb25z">Gene/variant-phenotype associations <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R3JhcGhpY2FsJTIwaW50ZXJmYWNlJTIwYXBwbGljYXRpb24=">Graphical interface application <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R1dBUw==">GWAS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SGFlbW9nbG9iaW4lMjB0aHJlc2hvbGRz">Haemoglobin thresholds <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW1hZ2luZy1nZW5ldGljcw==">Imaging-genetics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWl0b2Nob25kcmlhbCUyMEROQSUyMGNvcHklMjBudW1iZXI=">Mitochondrial DNA copy number <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGFya2luc29uJUUyJTgwJTk5cyUyMGRpc2Vhc2U=">Parkinson’s disease <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxhc21vZGl1bQ==">Plasmodium <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9wdWxhdGlvbiUyMEdlbmV0aWNz">Population Genetics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UiUyMHBhY2thZ2U=">R package <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2hvcnQlMjBUYW5kZW0lMjBSZXBlYXRz">Short Tandem Repeats <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3BpbmFsJTIwY29yZA==">Spinal cord <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VUslMjBCaW9iYW5r">UK Biobank <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V0hP">WHO <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -509,7 +509,7 @@ window.Quarto = {
 <h1>AI Image-Omics for Genetic Discovery</h1>
 <div id="listing-ai" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="U3BpbmFsJTIwY29yZCUyQ0dXQVMlMkNJbWFnaW5nLWdlbmV0aWNz" data-listing-date-sort="1789516800000" data-listing-file-modified-sort="1790167624114" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-categories="U3BpbmFsJTIwY29yZCUyQ0dXQVMlMkNJbWFnaW5nLWdlbmV0aWNz" data-listing-date-sort="1789516800000" data-listing-file-modified-sort="1790167678692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../projects/spinalcord/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -534,7 +534,7 @@ Genetic architecture of MRI-derived cervical spinal cord morphology reveals sens
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="SW1hZ2luZy1nZW5ldGljcyUyQ1VLJTIwQmlvYmFuaw==" data-listing-date-sort="1763510400000" data-listing-file-modified-sort="1790167624112" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="1" data-categories="SW1hZ2luZy1nZW5ldGljcyUyQ1VLJTIwQmlvYmFuaw==" data-listing-date-sort="1763510400000" data-listing-file-modified-sort="1790167678689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../projects/rib/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -565,7 +565,7 @@ Identification of novel vertebral development factors through UK Biobank candida
 <h1>Statistical Genetics, Population Genomics (Biobank) &amp; Translational Research</h1>
 <div id="listing-genetics" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="SGFlbW9nbG9iaW4lMjB0aHJlc2hvbGRzJTJDV0hPJTJDUG9wdWxhdGlvbiUyMEdlbmV0aWNz" data-listing-date-sort="1709164800000" data-listing-file-modified-sort="1790167624109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-categories="SGFlbW9nbG9iaW4lMjB0aHJlc2hvbGRzJTJDV0hPJTJDUG9wdWxhdGlvbiUyMEdlbmV0aWNz" data-listing-date-sort="1709164800000" data-listing-file-modified-sort="1790167678686" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../projects/haemoglobin/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -590,7 +590,7 @@ Haemoglobin thresholds to define anaemia from age 6 months to 65 years estimates
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="RTMlMjB1YmlxdWl0aW4lMjBsaWdhc2UlMkNCaW9iYW5rJTJDR2VuZSUyRnZhcmlhbnQtcGhlbm90eXBlJTIwYXNzb2NpYXRpb25z" data-listing-date-sort="1775088000000" data-listing-file-modified-sort="1790167624105" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="1" data-categories="RTMlMjB1YmlxdWl0aW4lMjBsaWdhc2UlMkNCaW9iYW5rJTJDR2VuZSUyRnZhcmlhbnQtcGhlbm90eXBlJTIwYXNzb2NpYXRpb25z" data-listing-date-sort="1775088000000" data-listing-file-modified-sort="1790167678683" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../projects/cell/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -615,7 +615,7 @@ The E3-ome gene-centric compendium reveals the human E3 ligase landscape
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UGxhc21vZGl1bSUyQ1Nob3J0JTIwVGFuZGVtJTIwUmVwZWF0cyUyQ1BvcHVsYXRpb24lMjBHZW5ldGljcw==" data-listing-date-sort="1641772800000" data-listing-file-modified-sort="1790167624114" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="2" data-categories="UGxhc21vZGl1bSUyQ1Nob3J0JTIwVGFuZGVtJTIwUmVwZWF0cyUyQ1BvcHVsYXRpb24lMjBHZW5ldGljcw==" data-listing-date-sort="1641772800000" data-listing-file-modified-sort="1790167678692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../projects/str/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -640,7 +640,7 @@ Population-level genome-wide STR discovery and validation for population structu
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="QWdlLXJlbGF0ZWQlMjBtYWN1bGFyJTIwZGVnZW5lcmF0aW9uJTJDR1dBUw==" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1790167624102" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="3" data-categories="QWdlLXJlbGF0ZWQlMjBtYWN1bGFyJTIwZGVnZW5lcmF0aW9uJTJDR1dBUw==" data-listing-date-sort="1765152000000" data-listing-file-modified-sort="1790167678680" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../projects/amd/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -671,7 +671,7 @@ HTRA1/lncRNA HTRA1-AS1 dominates in age-related macular degeneration reticular p
 <h1>Neurodegeneration (Parkinson’s)</h1>
 <div id="listing-neurodegeneration" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UGFya2luc29uJUUyJTgwJTk5cyUyMGRpc2Vhc2UlMkNNaXRvY2hvbmRyaWFsJTIwRE5BJTIwY29weSUyMG51bWJlciUyQ1VLJTIwQmlvYmFuaw==" data-listing-date-sort="1668384000000" data-listing-file-modified-sort="1790167624109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-categories="UGFya2luc29uJUUyJTgwJTk5cyUyMGRpc2Vhc2UlMkNNaXRvY2hvbmRyaWFsJTIwRE5BJTIwY29weSUyMG51bWJlciUyQ1VLJTIwQmlvYmFuaw==" data-listing-date-sort="1668384000000" data-listing-file-modified-sort="1790167678686" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../projects/pd/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -703,7 +703,73 @@ Peripheral immune cell abundance differences link blood mitochondrial DNA copy n
 <h2 class="anchored" data-anchor-id="software-development-interactive-research-platforms">Software Development &amp; Interactive Research Platforms</h2>
 <div id="listing-web" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="R3JhcGhpY2FsJTIwaW50ZXJmYWNlJTIwYXBwbGljYXRpb24lMkNHZW5lJTJGdmFyaWFudC1waGVub3R5cGUlMjBhc3NvY2lhdGlvbnMlMkNCaW9iYW5r" data-listing-date-sort="1744848000000" data-listing-file-modified-sort="1790167678684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../projects/genesetpheno/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/genesetpheno/genesetpheno.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+GeneSetPheno a web application for the integration, summary, and visualization of gene and variant–phenotype associations across gene sets
+</h5>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('R3JhcGhpY2FsJTIwaW50ZXJmYWNlJTIwYXBwbGljYXRpb24='); return false;">Graphical interface application</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZSUyRnZhcmlhbnQtcGhlbm90eXBlJTIwYXNzb2NpYXRpb25z'); return false;">Gene/variant-phenotype associations</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmlvYmFuaw=='); return false;">Biobank</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>GeneSetPheno is a user-friendly graphical interface that integrates, summarizes, and visualizes gene and variant-phenotype associations across genomic resources. It allows…</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UiUyMHBhY2thZ2U=" data-listing-date-sort="1760659200000" data-listing-file-modified-sort="1790167678681" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../projects/ampseqr/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/ampseqr/ampseqr.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+AmpSeqR an R package for amplicon deep sequencing data analysis
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UiUyMHBhY2thZ2U='); return false;">R package</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Amplicon sequencing (AmpSeq) is a methodology that targets specific genomic regions of interest for polymerase chain reaction (PCR) amplification so that they can be…</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="R3JhcGhpY2FsJTIwaW50ZXJmYWNlJTIwYXBwbGljYXRpb24=" data-listing-date-sort="1727222400000" data-listing-file-modified-sort="1790167678688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../projects/phagege/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/phagege/phagege.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+PhageGE an interactive web platform for exploratory analysis and visualization of bacteriophage genomes
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R3JhcGhpY2FsJTIwaW50ZXJmYWNlJTIwYXBwbGljYXRpb24='); return false;">Graphical interface application</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Antimicrobial resistance is a serious threat to global health. Due to the stagnant antibiotic discovery pipeline, bacteriophages (phages) have been proposed as an…</p>
+</div>
+</div>
+</div></a>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
