@@ -31,10 +31,9 @@ listing:
     image-placeholder: "../icon.png"
   - id: web
     contents:
-    - "open-problems-single-cell/index.qmd"
-    - "single-cell-best-practices/index.qmd"
-    - "scanpy-in-R/index.qmd"
-    - "r-pkg-dev/index.qmd"
+    - "genesetpheno/index.qmd"
+    - "ampseqr/index.qmd"
+    - "phagege/index.qmd"
     type: grid
     sort: "false"
     categories: true
