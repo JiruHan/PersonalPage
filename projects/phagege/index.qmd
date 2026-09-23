@@ -1,0 +1,33 @@
+---
+title: PhageGE an interactive web platform for exploratory analysis and visualization of bacteriophage genomes
+author:
+  - Jinxin Zhao
+  - name: Jiru Han
+    me: true
+  - Yu-Wei Lin
+  - Yan Zhu
+  - Michael Aichem
+  - Dimitar Garkov
+  - Phillip J Bergen
+  - Sue C Nang
+  - Jian-Zhong Ye
+  - Tieli Zhou
+  - Tony Velkov
+  - Jiangning Song
+  - Falk Schreiber
+  - Jian Li
+image: phagege.png
+abstract: |
+  Antimicrobial resistance is a serious threat to global health. Due to the stagnant antibiotic discovery pipeline, bacteriophages (phages) have been proposed as an alternative therapy for the treatment of infections caused by multidrug-resistant pathogens. Genomic features play an important role in phage pharmacology. However, our knowledge of phage genomics is sparse, and the use of existing bioinformatic pipelines and tools requires considerable bioinformatic expertise. These challenges have substantially limited the clinical translation of phage therapy. We have developed PhageGE (Phage Genome Explorer), a user-friendly graphical interface application for the interactive analysis of phage genomes. PhageGE enables users to perform key analyses, including phylogenetic analysis, visualization of phylogenetic trees, prediction of phage life cycle, and comparative analysis of phage genome annotations. The new R Shiny web server, PhageGE, integrates existing R packages and combines them with several newly developed functions to facilitate these analyses. Additionally, the web server provides interactive visualization capabilities and allows users to directly export publication-quality images.
+categories: ["Graphical interface application"]
+date: 2024-09-25
+links:
+  doi: https://doi.org/10.1093/gigascience/giae074
+google-scholar: true
+citation:
+  type: article-journal
+  doi: 10.1093/gigascience/giae074
+  container-title: GigaScience
+  volume: "13"
+  url: https://doi.org/10.1093/gigascience/giae074
+---

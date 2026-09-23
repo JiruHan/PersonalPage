@@ -21,27 +21,15 @@ listing:
     categories: true
     fields: [image, title, description, categories]
     image-placeholder: "../icon.png"
-  - id: analysis
+  - id: neurodegeneration
     contents:
-    - "oecd-housing/index.qmd"
-    - "phd-commits/index.qmd"
-    - "twitter-stats/index.qmd"
-    - "nba-positions/index.qmd"
+    - "pd/index.qmd"
     type: grid
     sort: "false"
     categories: true
     fields: [image, title, description, categories]
     image-placeholder: "../icon.png"
   - id: web
-    contents:
-    - "scRNA-tools/index.qmd"
-    - "sfaira-portal/index.qmd"
-    type: grid
-    sort: "false"
-    categories: true
-    fields: [image, title, description, categories]
-    image-placeholder: "../icon.png"
-  - id: Software Development & Interactive Research Platforms
     contents:
     - "open-problems-single-cell/index.qmd"
     - "single-cell-best-practices/index.qmd"
@@ -60,27 +48,18 @@ title-block-banner: true
 :::{#ai}
 :::
 
-# Statistical Genetics, Population Genomics & Translational Research
+# Statistical Genetics, Population Genomics (Biobank) & Translational Research
 
 :::{#genetics}
 :::
 
-# Scripts
+# Neurodegeneration (Parkinson’s)
 
-:::{#scripts}
+:::{#neurodegeneration}
 :::
 
-## Analysis and data
-
-:::{#analysis}
-:::
-
-## Web
+## Software Development & Interactive Research Platforms
 
 :::{#web}
 :::
 
-## Community and training
-
-:::{#community}
-:::

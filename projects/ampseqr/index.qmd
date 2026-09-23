@@ -1,0 +1,22 @@
+---
+title: AmpSeqR an R package for amplicon deep sequencing data analysis
+author:
+  - name: Jiru Han
+    me: true
+  - Jacob E. Munro
+  - Melanie Bahlo
+image: ampseqr.png
+abstract: |
+  Amplicon sequencing (AmpSeq) is a methodology that targets specific genomic regions of interest for polymerase chain reaction (PCR) amplification so that they can be sequenced to a high depth of coverage. Amplicons are typically chosen to be highly polymorphic, usually with several highly informative, high frequency single nucleotide polymorphisms (SNPs) segregating in an amplicon of 100-200 base pair (bp). This allows high sensitivity detection and quantification of the frequency of each sequence within each sample making it suitable for applications such as low frequency somatic mosaicism detection or minor clone detection in mixed samples. AmpSeq is being increasingly applied to both biological and medical studies, in applications such as cancer, infectious diseases and brain mosaicism studies. Current bioinformatics pipelines for AmpSeq data processing lack downstream analysis, have difficulty distinguishing between true sequences and PCR sequencing errors and artifacts, and often require bioinformatic expertise. We present a new R package: AmpSeqR, designed for the processing of deep short-read amplicon sequencing data, with a focus on infectious diseases. The pipeline integrates several existing R packages combining them with newly developed functions to perform optimal filtering of reads to remove noise and improve the accuracy of the detected sequences data, permitting detection of very low frequency clones in mixed samples. The package provides useful functions including data pre-processing, amplicon sequence variants (ASVs) estimation, data post-processing, data visualization, and automatically generates a comprehensive Rmarkdown report that contains all essential results facilitating easy inclusion into reports and publications. AmpSeqR is publicly available at https://github.com/bahlolab/AmpSeqR.
+categories: ["R package"]
+date: 2025-10-17
+links:
+  code: https://github.com/bahlolab/AmpSeqR
+  doi: https://doi.org/10.12688/f1000research.129581.2
+google-scholar: true
+citation:
+  type: article-journal
+  doi: 10.12688/f1000research.129581.2
+  container-title: F1000research
+  url: https://doi.org/10.12688/f1000research.129581.2
+---
