@@ -1,0 +1,71 @@
+---
+title: HTRA1/lncRNA HTRA1-AS1 dominates in age-related macular degeneration reticular pseudodrusen genetic risk with no complement involvement
+author:
+  - Samaneh Farashi
+  - Carla J. Abbott
+  - Brendan R. E. Ansell
+  - Zhichao Wu
+  - Lebriz Altay
+  - Ella Arnon
+  - Louis Arnould
+  - Yelena Bagdasarova
+  - Konstantinos Balaskas
+  - Fred K. Chen
+  - Emily Chew
+  - Itay Chowers
+  - Steven Clarke
+  - Catherine Cukras
+  - Cécile Delcourt
+  - Marie-Noëlle Delyfer
+  - Anneke I. den Hollander
+  - Sascha Fauser
+  - Robert P. Finger
+  - Pierre-Henry Gabrielle
+  - name: Jiru Han
+    me: true
+  - Lauren A. B. Hodgson
+  - Ruth Hogg
+  - Frank G. Holz
+  - Carel Hoyng
+  - Himeesh Kumar
+  - Eleonora M. Lad
+  - Aaron Lee
+  - Ulrich F. O. Luhmann
+  - Matthias M. Mauschitz
+  - Amy J. McKnight
+  - Samuel McLenachan
+  - Aniket Mishra
+  - Ismail Moghul
+  - Luz D. Orozco
+  - Danuta M. Sampson
+  - Liam W. Scott
+  - Vasilena Sitnilska
+  - Scott Song
+  - Amy Stockwell
+  - Anand Swaroop
+  - Jan H. Terheyden
+  - Liran Tiosano
+  - Adnan Tufail
+  - Brian L. Yaspan
+  - MACUSTAR consortium
+  - NICOLA consortium
+  - Alice Pébay
+  - Erica L. Fletcher
+  - Robyn H. Guymer
+  - Melanie Bahlo
+  - On behalf of the Reticular Pseudodrusen Consortium
+image: amd.png
+abstract: |
+  Age-related macular degeneration (AMD) is a multifactorial retinal disease with a large genetic risk contribution. Reticular pseudodrusen (RPD) is a sub-phenotype of AMD with a high risk of progression to late vision threatening AMD. In a genome-wide association study of 2165 AMD+/RPD+ and 4181 AMD+/RPD- compared to 7639 control participants, both chromosomes 1 (CFH) and 10 (ARMS2/HTRA1) major AMD risk loci are reidentified. However association is only detected for the chromosome 10 locus when comparing AMD+/RPD+ to AMD+/RPD- cases. The chromosome 1 locus is notably absent. The chromosome 10 RPD risk region contains a long non-coding RNA HTRA1-AS1 (ENSG00000285955/BX842242.1) which colocalizes with genetic markers of retinal thickness. HTRA1-AS1 has a strong retinal eQTL signal, pinpointing the parafoveal photoreceptor outer segment layer. Whole genome sequencing of phenotypically extreme RPD cases identifies even stronger enrichment for the chromosome 10 risk genotype.
+categories: ["Age-related macular degeneration", "GWAS"]
+date: 2025-12-08
+links:
+  doi: https://doi.org/10.1038/s41467-025-65903-9
+google-scholar: true
+citation:
+  type: article-journal
+  doi: 10.1038/s41467-025-65903-9
+  container-title: Nature Communications
+  volume: "16"
+  url: https://doi.org/10.1038/s41467-025-65903-9
+---
