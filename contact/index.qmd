@@ -2,8 +2,6 @@
 title: Contact
 ---
 
-![](contact.png)
-
 ## Get in touch
 
 If you'd like to discuss research, collaboration, or opportunities, feel free to get in touch.
@@ -11,3 +9,5 @@ If you'd like to discuss research, collaboration, or opportunities, feel free to
 **Email:**  
 han.ji@wehi.edu.au  
 hanjiru1992@outlook.com
+
+![](contact.png){width=50%}
