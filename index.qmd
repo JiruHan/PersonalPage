@@ -25,7 +25,7 @@ about:
 
 # Hi, I'm Jiru 👋🏻
 
-I am a computational geneticist and data scientist with a research background in statistical genetics, genomics, multi-omics integration, and a growing interest in biomedical AI and reproducible workflows.
+I am a computational geneticist and data scientist with a research background in statistical genetics, genomics, multi-omics integration, and a growing interest in biomedical AI.
 
 I am currently based in Hamburg, Germany, and exploring new research and industry opportunities in computational biology, bioinformatics, and data science.
 

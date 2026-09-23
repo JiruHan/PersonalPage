@@ -57,7 +57,7 @@ title-block-banner: true
 :::{#neurodegeneration}
 :::
 
-# Software Development & Interactive Research Platforms
+## Software Development & Interactive Research Platforms
 
 :::{#web}
 :::
